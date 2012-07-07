@@ -34,14 +34,15 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         YouTubePlayer.PlaybackEventListener {
 
     private LinearLayout baseLayout;
-    private YouTubePlayerView player;
     private View otherViews;
     private int windowFlags;
-    private Quiz quiz;
-
     private boolean fullscreen;
-    private Integer mCurrentQuestionIndex = 0;
     private Handler mHandler;
+    private YouTubePlayerView player;
+    private Quiz quiz;
+    private Integer mCurrentQuestionIndex = 0;
+    private Question mCurrentQuestion;
+    private RadioGroup mAnswersRadioGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -137,25 +138,47 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     private void showQuestions() {
         LinearLayout questionsLayout = (LinearLayout) findViewById(R.id.quiz_layout);
         questionsLayout.removeAllViews();
+
+        // Don't go past the last question.
+        if (mCurrentQuestionIndex >= quiz.getQuestions().size()) {
+            return;
+        }
+
         TextView questionTextView = new TextView(this);
-        Question question = quiz.getQuestions().get(mCurrentQuestionIndex);
-        questionTextView.setText(question.getQuestionDescription());
+        mCurrentQuestion = quiz.getQuestions().get(mCurrentQuestionIndex);
+        questionTextView.setText(mCurrentQuestion.getQuestionDescription());
         questionsLayout.addView(questionTextView);
 
-        RadioGroup radioGroup = new RadioGroup(this);
-        for (int i = 0; i < quiz.getQuestions().size(); i++) {
+        mAnswersRadioGroup = new RadioGroup(this);
+        List<String> answers = mCurrentQuestion.getAnswers();
+        for (int i = 0; i < answers.size(); i++) {
             RadioButton radioButton = new RadioButton(this);
-            radioButton.setText(question.getAnswers().get(i));
-            radioGroup.addView(radioButton);
+
+            // The id must be positive but need not be unique.
+            radioButton.setId(i + 1);
+
+            radioButton.setText(answers.get(i));
+            mAnswersRadioGroup.addView(radioButton);
         }
-        questionsLayout.addView(radioGroup);
+        questionsLayout.addView(mAnswersRadioGroup);
 
         Button submitButton = new Button(this);
         submitButton.setText(R.string.submit);
         questionsLayout.addView(submitButton);
 
-        // XXX
-        // currentQuestion++;
+        submitButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                QuizActivity.this.onSubmitButtonClicked();
+            }
+        });
+    }
+
+    public void onSubmitButtonClicked() {
+        int answerIndex = mAnswersRadioGroup.getCheckedRadioButtonId() - 1;
+        mCurrentQuestion.setUserAnswer(answerIndex);
+        mCurrentQuestionIndex++;
+        player.play();
     }
 
     private void hideQuestions() {
