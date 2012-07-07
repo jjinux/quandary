@@ -3,4 +3,8 @@
 
 # Created when building the project
 out
-gen/code/com/R.java
+gen/code/google/com/R.java
+
+# Created by IntelliJ
+.idea
+*.iml
