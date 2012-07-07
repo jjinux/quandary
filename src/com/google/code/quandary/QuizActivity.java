@@ -12,13 +12,14 @@ import android.os.Handler;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
-import android.widget.LinearLayout;
+import android.widget.*;
 import android.widget.LinearLayout.LayoutParams;
 import com.google.android.youtube.api.YouTube;
 import com.google.android.youtube.api.YouTubeBaseActivity;
 import com.google.android.youtube.api.YouTubePlayer;
 import com.google.android.youtube.api.YouTubePlayer.OnFullscreenListener;
 import com.google.android.youtube.api.YouTubePlayerView;
+import com.google.code.quandary.quiz.Question;
 import com.google.code.quandary.quiz.Quiz;
 
 /**
@@ -37,7 +38,7 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     private Quiz quiz;
 
     private boolean fullscreen;
-    private Integer currentQuestion = 0;
+    private Integer mCurrentQuestionIndex = 0;
     private Handler mHandler;
 
     @Override
@@ -102,7 +103,7 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     }
 
     public void onPlaying() {
-        if (currentQuestion < quiz.getQuestions().size()) {
+        if (mCurrentQuestionIndex < quiz.getQuestions().size()) {
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
@@ -111,15 +112,44 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
             }, 5000);
             new QuizCheckerRunnable(player);
         }
+        hideQuestions();
     }
 
-    public void onPaused() {}
+    public void onPaused() {
+        showQuestions();
+    }
 
     public void onStopped() {}
 
     public void onBuffering(boolean b) {}
 
     public void onSeekTo(int i) {}
+
+    private void showQuestions() {
+        LinearLayout questionsLayout = (LinearLayout) findViewById(R.id.quiz_layout);
+        questionsLayout.removeAllViews();
+        TextView questionTextView = new TextView(this);
+        Question question = quiz.getQuestions().get(mCurrentQuestionIndex);
+        questionTextView.setText(question.getQuestionDescription());
+        questionsLayout.addView(questionTextView);
+
+        RadioGroup radioGroup = new RadioGroup(this);
+        for (int i = 0; i < quiz.getQuestions().size(); i++) {
+            RadioButton radioButton = new RadioButton(this);
+            radioButton.setText(question.getAnswers().get(i));
+            radioGroup.addView(radioButton);
+        }
+        questionsLayout.addView(radioGroup);
+
+        Button submitButton = new Button(this);
+        submitButton.setText(R.string.submit);
+        questionsLayout.addView(submitButton);
+    }
+
+    private void hideQuestions() {
+        LinearLayout layout = (LinearLayout) findViewById(R.id.quiz_layout);
+        layout.removeAllViews();
+    }
 
     private void doLayout() {
         if (fullscreen) {
