@@ -25,8 +25,7 @@ import com.google.code.quandary.quiz.Quiz;
  * This is the preferred way of handling fullscreen because the default fullscreen implementation
  * will cause re-buffering of the video.
  */
-public class QuizActivity extends YouTubeBaseActivity
-        implements OnClickListener, OnFullscreenListener {
+public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenListener {
 
     private LinearLayout baseLayout;
     private YouTubePlayerView player;
@@ -65,7 +64,26 @@ public class QuizActivity extends YouTubeBaseActivity
         player.enableCustomFullscreen(this);
 
         // You can use your own button to switch to fullscreen too
-        findViewById(R.id.fullscreen_button).setOnClickListener(this);
+        findViewById(R.id.fullscreen_button).setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        player.setFullscreen(!fullscreen);
+                    }
+                }
+        );
+
+        // Go to the QuizScoreActivity when the user presses "Finish".
+        findViewById(R.id.finish_button).setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(this, QuizScoreActivity.class);
+                        intent.putExtra("score", "80%");
+                        startActivity(intent);
+                    }
+                }
+        );
 
         doLayout();
     }
@@ -74,11 +92,6 @@ public class QuizActivity extends YouTubeBaseActivity
     protected void onResume() {
         super.onResume();
         player.loadVideo(quiz.getVideoId());
-    }
-
-    @Override
-    public void onClick(View v) {
-        player.setFullscreen(!fullscreen);
     }
 
     private void doLayout() {
