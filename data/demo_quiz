@@ -4,14 +4,14 @@
         "time": 2000,
         "question": "How do you calculate sine?",
         "answers": [{
-            "text": "hypotenuse / opposite",
+            "text": "hypotenuse / opposite"
         }, {
             "text": "opposite / hypotenuse",
             "correct": true
         }, {
-            "text": "opposite / adjacent",
+            "text": "opposite / adjacent"
         }, {
-            "text": "Using a calculator,
+            "text": "Using a calculator"
         }]
     }]
 }
