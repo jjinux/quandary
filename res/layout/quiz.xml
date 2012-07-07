@@ -19,10 +19,12 @@
             android:orientation="vertical"
             android:background="#777777">
 
-        <TextView
+        <LinearLayout
+                android:id="@+id/quiz_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fullscreen_tutorial"/>
+                android:orientation="vertical">
+        </LinearLayout>
 
         <Button
                 android:id="@+id/fullscreen_button"
