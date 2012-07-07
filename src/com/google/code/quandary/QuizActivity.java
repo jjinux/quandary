@@ -19,7 +19,10 @@ import com.google.android.youtube.api.YouTubeBaseActivity;
 import com.google.android.youtube.api.YouTubePlayer;
 import com.google.android.youtube.api.YouTubePlayer.OnFullscreenListener;
 import com.google.android.youtube.api.YouTubePlayerView;
+import com.google.code.quandary.quiz.Question;
 import com.google.code.quandary.quiz.Quiz;
+
+import java.util.List;
 
 /**
  * Sample activity showing how to properly enable custom fullscreen behavior.
@@ -102,13 +105,18 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     }
 
     public void onPlaying() {
-        if (currentQuestion < quiz.getQuestions().size()) {
+        List<Question> questions = quiz.getQuestions();
+        if (currentQuestion < questions.size()) {
+            Long timeToPause= currentQuestion == 0 ? questions.get(currentQuestion).getTimeToPause()
+                    : questions.get(currentQuestion).getTimeToPause() - questions.get(currentQuestion - 1).getTimeToPause();
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     player.pause();
+                    currentQuestion++;
                 }
-            }, 5000);
+            },timeToPause
+            );
             new QuizCheckerRunnable(player);
         }
     }
