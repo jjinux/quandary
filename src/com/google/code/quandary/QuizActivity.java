@@ -22,6 +22,8 @@ import com.google.android.youtube.api.YouTubePlayerView;
 import com.google.code.quandary.quiz.Question;
 import com.google.code.quandary.quiz.Quiz;
 
+import java.util.List;
+
 /**
  * Sample activity showing how to properly enable custom fullscreen behavior.
  * <p/>
@@ -103,13 +105,17 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     }
 
     public void onPlaying() {
-        if (mCurrentQuestionIndex < quiz.getQuestions().size()) {
+        List<Question> questions = quiz.getQuestions();
+        if (mCurrentQuestionIndex < questions.size()) {
+            Long timeToPause = mCurrentQuestionIndex == 0 ? questions.get(mCurrentQuestionIndex).getTimeToPause()
+                    : questions.get(mCurrentQuestionIndex).getTimeToPause() - questions.get(mCurrentQuestionIndex - 1).getTimeToPause();
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     player.pause();
                 }
-            }, 5000);
+            }, timeToPause
+            );
             new QuizCheckerRunnable(player);
         }
         hideQuestions();
@@ -119,11 +125,14 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         showQuestions();
     }
 
-    public void onStopped() {}
+    public void onStopped() {
+    }
 
-    public void onBuffering(boolean b) {}
+    public void onBuffering(boolean b) {
+    }
 
-    public void onSeekTo(int i) {}
+    public void onSeekTo(int i) {
+    }
 
     private void showQuestions() {
         LinearLayout questionsLayout = (LinearLayout) findViewById(R.id.quiz_layout);
@@ -144,6 +153,9 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         Button submitButton = new Button(this);
         submitButton.setText(R.string.submit);
         questionsLayout.addView(submitButton);
+
+        // XXX
+        // currentQuestion++;
     }
 
     private void hideQuestions() {
