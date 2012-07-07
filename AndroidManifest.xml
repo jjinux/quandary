@@ -4,6 +4,8 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="15"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity
                 android:label="@string/app_name"
@@ -11,13 +13,13 @@
                 android:screenOrientation="sensor"
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:theme="@style/Theme.DeviceDefault.Black">
-        </activity>
-        <activity android:name="com.google.code.quandary.QuizEntryActivity"
-                  android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name="com.google.code.quandary.QuizEntryActivity"
+                  android:label="@string/app_name">
         </activity>
     </application>
 </manifest>
