@@ -35,9 +35,9 @@ public class JsonRemoteReader {
                  String questionString=  jsonQuestion.getString("question")   ;
                 question.setTimeToPause(timeToPause);
                 question.setQuestionDescription(questionString);
-                JSONArray answers =jsonQuize.getJSONArray("answers");
+                JSONArray answers =jsonQuestion.getJSONArray("answers");
                 for(int j=0; j<answers.length(); j++){
-                    JSONObject jsonAnswer = questions.getJSONObject(j);
+                    JSONObject jsonAnswer = answers.getJSONObject(j);
                     String text=  jsonAnswer.getString("text");
                     question.getAnswers().add(text);
                     boolean correct = jsonAnswer.getBoolean("correct");
