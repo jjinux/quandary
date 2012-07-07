@@ -1,2 +1,6 @@
+# Created by OS X
 .DS_Store
+
+# Created when building the project
 out
+gen/code/com/R.java
