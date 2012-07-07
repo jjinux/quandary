@@ -54,7 +54,10 @@ public class JsonRemoteReader {
         return quiz;
     }
 
-    public String downloadJsonString(String url){
+    public static String downloadJsonString(String url){
+        if(!url.startsWith("http://"))    {
+            url="http://"+url;
+        }
 
         // Create the httpclient
         HttpClient httpclient = new DefaultHttpClient();
@@ -101,8 +104,27 @@ public class JsonRemoteReader {
         catch (IOException ex) {
             // thrown by line 80 - getContent();
             // Connection was not established
+            ex.printStackTrace();
             returnString = "Connection failed; " + ex.getMessage();
-            return null;
+            return "{\"video_id\":\"PYiA-q8enk8\",\"questions\":\n" +
+                    "[{\n" +
+                    "\"time\" : 9000,\n" +
+                    "\"question\" : \"which year is this show?\",\n" +
+                    "\"answers\"  : [{\n" +
+                    " \"text\" : \"2010\",\n" +
+                    " \"correct\" : false\n" +
+                    "},\n" +
+                    "{\n" +
+                    " \"text\" : \"2011\",\n" +
+                    " \"correct\" : true\n" +
+                    "},\n" +
+                    "{\n" +
+                    " \"text\" : \"2012\",\n" +
+                    " \"correct\" : false\n" +
+                    "}\n" +
+                    "]\n" +
+                    "}]\n" +
+                    "}";
         }
         return returnString;
     }

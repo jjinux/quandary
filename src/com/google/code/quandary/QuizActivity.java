@@ -2,6 +2,7 @@
 
 package com.google.code.quandary;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -16,6 +17,7 @@ import com.google.android.youtube.api.YouTube;
 import com.google.android.youtube.api.YouTubeBaseActivity;
 import com.google.android.youtube.api.YouTubePlayer.OnFullscreenListener;
 import com.google.android.youtube.api.YouTubePlayerView;
+import com.google.code.quandary.quiz.Quiz;
 
 /**
  * Sample activity showing how to properly enable custom fullscreen behavior.
@@ -52,6 +54,9 @@ public class QuizActivity extends YouTubeBaseActivity
         if (getActionBar() != null) {
             getActionBar().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
         }
+        Intent intent= getIntent();
+        Quiz quiz= (Quiz) intent.getSerializableExtra("myquiz");
+        System.out.println(quiz.getVideoId());
 
         YouTube.initialize(this, DeveloperKey.DEVELOPER_KEY);
         registerPlayerView(player);

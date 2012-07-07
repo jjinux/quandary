@@ -29,15 +29,15 @@ public class QuizEntryActivity extends Activity
 
         b.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
-                String text = et.getText().toString();
-                Quiz quiz = getQuiz(text);
+                String url = et.getText().toString();
+                if(url == null || url.trim().isEmpty()){
+                    url=getResources().getString(R.string.QuizDefaultUrl);
+                }
                 Toast msg = Toast.makeText(getBaseContext(),
-                        "Starting quiz with Youtube ID : \n" + quiz.getVideoId(), Toast.LENGTH_LONG);
+                        "Loading ..." , Toast.LENGTH_LONG);
                 msg.show();
-                Intent myIntent;
-                myIntent = new Intent(v.getContext(), QuizActivity.class);
-                myIntent.putExtra("myquiz", quiz);
-                startActivityForResult(myIntent, 0);
+
+                new RunQuizTask(v.getContext(),QuizEntryActivity.this).execute(url);
 
             }
 
@@ -46,27 +46,4 @@ public class QuizEntryActivity extends Activity
 
     }
 
-    private Quiz getQuiz(String text) {
-       String jasonString="{\"video_id\":\"PYiA-q8enk8\",\"questions\":\n" +
-               "[{\n" +
-               "\"time\" : 9000,\n" +
-               "\"question\" : \"which year is this show?\",\n" +
-               "\"answers\"  : [{\n" +
-               " \"text\" : \"2010\",\n" +
-               " \"correct\" : false\n" +
-               "},\n" +
-               "{\n" +
-               " \"text\" : \"2011\",\n" +
-               " \"correct\" : true\n" +
-               "},\n" +
-               "{\n" +
-               " \"text\" : \"2012\",\n" +
-               " \"correct\" : false\n" +
-               "}\n" +
-               "]\n" +
-               "}]\n" +
-               "}";
-        Quiz quiz=JsonRemoteReader.convertToQuize(jasonString)                   ;
-        return quiz;
-    }
 }
