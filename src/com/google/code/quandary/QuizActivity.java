@@ -1,7 +1,8 @@
 // Copyright 2012 Google Inc. All Rights Reserved.
 
-package code.google.com;
+package com.google.code.quandary;
 
+import code.google.com.R;
 import com.google.android.youtube.api.YouTube;
 import com.google.android.youtube.api.YouTubeBaseActivity;
 import com.google.android.youtube.api.YouTubePlayer.OnFullscreenListener;
@@ -17,6 +18,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
+import com.google.code.quandary.DeveloperKey;
 
 /**
  * Sample activity showing how to properly enable custom fullscreen behavior.

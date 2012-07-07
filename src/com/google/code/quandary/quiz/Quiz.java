@@ -1,4 +1,6 @@
-package code.google.com.Quiz;
+package com.google.code.quandary.fofofof;
+
+import com.google.code.quandary.fofofof.Question;
 
 import java.util.ArrayList;
 import java.util.List;
