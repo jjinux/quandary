@@ -1,5 +1,6 @@
 package com.google.code.quandary.quiz;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +11,7 @@ import java.util.List;
  * Time: 11:07
  * To change this template use File | Settings | File Templates.
  */
-public class Quiz {
+public class Quiz implements Serializable {
     String videoId;
 
    List<Question>   questions =new ArrayList<Question>();
