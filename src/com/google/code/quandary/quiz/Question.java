@@ -10,6 +10,7 @@ public class Question implements Serializable {
     String questionDescription;
     List <String> answers = new ArrayList<String>();
     Integer correctAnswer;
+    Integer userAnswer;
 
     public Long getTimeToPause() {
         return timeToPause;
@@ -41,6 +42,14 @@ public class Question implements Serializable {
 
     public void setCorrectAnswer(Integer correctAnswer) {
         this.correctAnswer = correctAnswer;
+    }
+
+    public Integer getUserAnswer() {
+        return userAnswer;
+    }
+
+    public void setUserAnswer(Integer userAnswer) {
+        this.userAnswer = userAnswer;
     }
 
 

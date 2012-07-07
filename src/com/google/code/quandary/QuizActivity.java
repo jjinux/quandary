@@ -78,8 +78,9 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
                 new OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(this, QuizScoreActivity.class);
-                        intent.putExtra("score", "80%");
+                        Intent intent;
+                        intent = new Intent(QuizActivity.this, QuizScoreActivity.class);
+                        intent.putExtra("quiz", quiz);
                         startActivity(intent);
                     }
                 }

@@ -21,5 +21,12 @@
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:theme="@style/Theme.DeviceDefault.Black">
         </activity>
+        <activity
+                android:label="@string/app_name"
+                android:name="com.google.code.quandary.QuizScoreActivity"
+                android:screenOrientation="sensor"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:theme="@style/Theme.DeviceDefault.Black">
+        </activity>
     </application>
 </manifest>
