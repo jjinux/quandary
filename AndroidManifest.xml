@@ -4,13 +4,20 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="15"/>
-    <application android:label="@string/quiz_activity_label" android:icon="@drawable/ic_launcher">
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity
-                android:label="@string/quiz_activity_label"
+                android:label="@string/app_name"
                 android:name=".QuizActivity"
                 android:screenOrientation="sensor"
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:theme="@style/Theme.DeviceDefault.Black">
+        </activity>
+        <activity android:name=".QuizEntryActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
     </application>
 </manifest>
