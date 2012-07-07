@@ -1,4 +1,4 @@
-package com.google.code.quandary.fofofof;
+package com.google.code.quandary.quiz;
 
 
 import org.apache.http.HttpEntity;

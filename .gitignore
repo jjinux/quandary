@@ -3,7 +3,7 @@
 
 # Created when building the project
 out
-gen/code/google/com/R.java
+gen
 
 # Created by IntelliJ
 .idea

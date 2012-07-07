@@ -7,8 +7,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.google.code.quandary.fofofof.JsonRemoteReader;
-import com.google.code.quandary.fofofof.Quiz;
+import com.google.code.quandary.quiz.JsonRemoteReader;
+import com.google.code.quandary.quiz.Quiz;
 
 
 public class QuizEntryActivity extends Activity

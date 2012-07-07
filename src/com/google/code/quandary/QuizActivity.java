@@ -2,12 +2,6 @@
 
 package com.google.code.quandary;
 
-import code.google.com.R;
-import com.google.android.youtube.api.YouTube;
-import com.google.android.youtube.api.YouTubeBaseActivity;
-import com.google.android.youtube.api.YouTubePlayer.OnFullscreenListener;
-import com.google.android.youtube.api.YouTubePlayerView;
-
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -18,7 +12,10 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
-import com.google.code.quandary.DeveloperKey;
+import com.google.android.youtube.api.YouTube;
+import com.google.android.youtube.api.YouTubeBaseActivity;
+import com.google.android.youtube.api.YouTubePlayer.OnFullscreenListener;
+import com.google.android.youtube.api.YouTubePlayerView;
 
 /**
  * Sample activity showing how to properly enable custom fullscreen behavior.
