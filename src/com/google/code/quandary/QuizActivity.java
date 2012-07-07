@@ -16,17 +16,19 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import com.google.android.youtube.api.YouTube;
 import com.google.android.youtube.api.YouTubeBaseActivity;
+import com.google.android.youtube.api.YouTubePlayer;
 import com.google.android.youtube.api.YouTubePlayer.OnFullscreenListener;
 import com.google.android.youtube.api.YouTubePlayerView;
 import com.google.code.quandary.quiz.Quiz;
 
 /**
  * Sample activity showing how to properly enable custom fullscreen behavior.
- * <p>
+ * <p/>
  * This is the preferred way of handling fullscreen because the default fullscreen implementation
  * will cause re-buffering of the video.
  */
-public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenListener {
+public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenListener,
+        YouTubePlayer.PlaybackEventListener {
 
     private LinearLayout baseLayout;
     private YouTubePlayerView player;
@@ -35,13 +37,13 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     private Quiz quiz;
 
     private boolean fullscreen;
-    private Integer currentQuestion=0;
+    private Integer currentQuestion = 0;
     private Handler mHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-         mHandler = new Handler(getMainLooper());
+        mHandler = new Handler(getMainLooper());
         windowFlags = Window.FEATURE_NO_TITLE;
         if (Build.VERSION.SDK_INT >= 11) {
             // If you would like the action bar to be shown together with the player's controls when
@@ -57,11 +59,12 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         if (getActionBar() != null) {
             getActionBar().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
         }
-        Intent intent= getIntent();
+        Intent intent = getIntent();
         quiz = (Quiz) intent.getSerializableExtra("myquiz");
 
         YouTube.initialize(this, DeveloperKey.DEVELOPER_KEY);
         registerPlayerView(player);
+        player.setPlaybackEventListener(this);
 
         // Specify that we want handle fullscreen behavior ourselves.
         player.enableCustomFullscreen(this);
@@ -96,16 +99,27 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     protected void onResume() {
         super.onResume();
         player.loadVideo(quiz.getVideoId());
-        if(currentQuestion<quiz.getQuestions().size())   {
-        mHandler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                player.pause();
-            }
-        }, quiz.getQuestions().get(currentQuestion).getTimeToPause()) ;
-        new QuizCheckerRunnable(player);
+    }
+
+    public void onPlaying() {
+        if (currentQuestion < quiz.getQuestions().size()) {
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    player.pause();
+                }
+            }, 5000);
+            new QuizCheckerRunnable(player);
         }
     }
+
+    public void onPaused() {}
+
+    public void onStopped() {}
+
+    public void onBuffering(boolean b) {}
+
+    public void onSeekTo(int i) {}
 
     private void doLayout() {
         if (fullscreen) {
@@ -153,7 +167,7 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     }
 
     private int getActionBarHeightPx() {
-        int[] attrs = new int[] { android.R.attr.actionBarSize };
+        int[] attrs = new int[]{android.R.attr.actionBarSize};
         return (int) getTheme().obtainStyledAttributes(attrs).getDimension(0, 0f);
     }
 
