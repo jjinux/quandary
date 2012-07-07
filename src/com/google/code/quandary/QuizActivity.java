@@ -88,15 +88,18 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
                 new OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent;
-                        intent = new Intent(QuizActivity.this, QuizScoreActivity.class);
-                        intent.putExtra("quiz", quiz);
-                        startActivity(intent);
+                        showQuizScoreActivity();
                     }
                 }
         );
 
         doLayout();
+    }
+
+    public void showQuizScoreActivity() {
+        Intent intent = new Intent(this, QuizScoreActivity.class);
+        intent.putExtra("quiz", quiz);
+        startActivity(intent);
     }
 
     @Override
@@ -127,6 +130,9 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     }
 
     public void onStopped() {
+        if (mCurrentQuestionIndex == quiz.getQuestions().size()) {
+            showQuizScoreActivity();
+        }
     }
 
     public void onBuffering(boolean b) {
@@ -169,7 +175,7 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         submitButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                QuizActivity.this.onSubmitButtonClicked();
+                onSubmitButtonClicked();
             }
         });
     }
