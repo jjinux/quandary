@@ -40,7 +40,7 @@ public class JsonRemoteReader {
                     JSONObject jsonAnswer = answers.getJSONObject(j);
                     String text=  jsonAnswer.getString("text");
                     question.getAnswers().add(text);
-                    boolean correct = jsonAnswer.getBoolean("correct");
+                    boolean correct = jsonAnswer.has("correct") && jsonAnswer.getBoolean("correct");
                     if(correct)    {
                         question.setCorrectAnswer(i);
                     }
