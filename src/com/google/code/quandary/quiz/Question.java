@@ -1,10 +1,11 @@
 package com.google.code.quandary.quiz;
 
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Question {
+public class Question implements Serializable {
     Long timeToPause;
     String questionDescription;
     List <String> answers = new ArrayList<String>();
