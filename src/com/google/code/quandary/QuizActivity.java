@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -34,11 +35,13 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     private Quiz quiz;
 
     private boolean fullscreen;
+    private Integer currentQuestion=0;
+    private Handler mHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+         mHandler = new Handler(getMainLooper());
         windowFlags = Window.FEATURE_NO_TITLE;
         if (Build.VERSION.SDK_INT >= 11) {
             // If you would like the action bar to be shown together with the player's controls when
@@ -93,6 +96,15 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     protected void onResume() {
         super.onResume();
         player.loadVideo(quiz.getVideoId());
+        if(currentQuestion<quiz.getQuestions().size())   {
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                player.pause();
+            }
+        }, quiz.getQuestions().get(currentQuestion).getTimeToPause()) ;
+        new QuizCheckerRunnable(player);
+        }
     }
 
     private void doLayout() {
