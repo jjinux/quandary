@@ -2,16 +2,16 @@
     "video_id": "yhifhHihRIQ",
     "questions": [{
         "time": 2000,
-        "question": "which year is this show?",
+        "question": "How do you calculate sine?",
         "answers": [{
-            "text": "2010",
-            "correct": false
+            "text": "hypotenuse / opposite",
         }, {
-            "text": "2011",
+            "text": "opposite / hypotenuse",
             "correct": true
         }, {
-            "text": "2012",
-            "correct": false
+            "text": "opposite / adjacent",
+        }, {
+            "text": "Using a calculator,
         }]
     }]
 }
