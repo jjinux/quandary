@@ -4,3 +4,6 @@
 # Created when building the project
 out
 gen/code/com/R.java
+
+# Created by IntelliJ
+.idea
