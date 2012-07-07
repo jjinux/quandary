@@ -49,10 +49,8 @@ public class QuizActivity extends YouTubeBaseActivity
         baseLayout = (LinearLayout) findViewById(R.id.layout);
         player = (YouTubePlayerView) findViewById(R.id.player);
         otherViews = findViewById(R.id.other_views);
-        if (Build.VERSION.SDK_INT >= 11) {
-            if (getActionBar() != null) {
-                getActionBar().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
-            }
+        if (getActionBar() != null) {
+            getActionBar().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
         }
 
         YouTube.initialize(this, DeveloperKey.DEVELOPER_KEY);
