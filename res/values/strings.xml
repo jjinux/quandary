@@ -4,4 +4,5 @@
     <string name="QuizDefaultUrl">quandary.googlecode.com/git/data/demo_quiz</string>
     <string name="fullscreen_tutorial">This is a demo showing how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button).</string>
     <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="finish">Finish</string>
 </resources>
