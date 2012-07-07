@@ -1,6 +1,7 @@
 package com.google.code.quandary;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,6 +34,10 @@ public class QuizEntryActivity extends Activity
                 Toast msg = Toast.makeText(getBaseContext(),
                         "Starting quiz with Youtube ID : \n" + quiz.getVideoId(), Toast.LENGTH_LONG);
                 msg.show();
+                Intent myIntent;
+                myIntent = new Intent(v.getContext(), QuizActivity.class);
+                myIntent.putExtra("myquiz", quiz);
+                startActivityForResult(myIntent, 0);
 
             }
 

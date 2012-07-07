@@ -15,6 +15,7 @@
         android:text="Please input a quiz url:"
         />
 <EditText android:id="@+id/edittext"
+          android:hint="@string/QuizDefaultUrl"
           android:layout_width="fill_parent"
           android:layout_height="wrap_content" />
 
