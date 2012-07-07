@@ -7,3 +7,4 @@ gen/code/google/com/R.java
 
 # Created by IntelliJ
 .idea
+*.iml
