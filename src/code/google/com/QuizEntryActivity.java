@@ -11,7 +11,7 @@ import code.google.com.Quiz.JsonRemoteReader;
 import code.google.com.Quiz.Quiz;
 
 
-public class MyActivity extends Activity
+public class QuizEntryActivity extends Activity
 {
     /** Called when the activity is first created. */
     @Override
