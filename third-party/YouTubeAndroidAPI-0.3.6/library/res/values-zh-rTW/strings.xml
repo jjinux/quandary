@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="results" msgid="3491858164798373513">"搜尋結果"</string>
+    <string name="share_subject" msgid="4288655105936857100">"在 YouTube 上觀看「<xliff:g id="VIDEO_TITLE">%1$s</xliff:g>」"</string>
+    <string name="no_network" msgid="4034091614982104955">"目前沒有網路連線，請稍候再試一次。"</string>
+    <string name="send_video" msgid="1807054013787019321">"分享此影片時透過："</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"選取要上傳的影片"</string>
+    <string name="warning_3d_bandwidth" msgid="8791840892348766650">"3D 格式的影片會耗用大量數據傳輸，因此在 Wi-Fi 網路上的效果最佳。"</string>
+    <string name="error_network" msgid="6203606370875060882">"網路發生問題"</string>
+    <string name="error_connection" msgid="2998095651459626987">"連線至網路時發生問題"</string>
+    <string name="error_http" msgid="5344829683089448616">"網路發生問題 [<xliff:g id="HTTP_ERROR">%1$s</xliff:g>]"</string>
+    <string name="error_youtube_server_down" msgid="4707901657961236961">"暫時無法使用 YouTube。"</string>
+    <string name="error_response" msgid="1670518993171072015">"網路回應時發生問題"</string>
+    <string name="error_response_invalid" msgid="170451687814499718">"無效的網路回應格式"</string>
+    <string name="error_dev_reg" msgid="4384345559801694025">"啟動時發生問題。請檢查您的網路連線和系統時間。"</string>
+    <string name="error_authenticating" msgid="6511119385715669049">"驗證時發生問題"</string>
+    <string name="error_no_linked_youtube_account" msgid="2109268361764786379">"您的帳戶尚未連結至 YouTube 帳戶。"\n"請登入 www.youtube.com，為您的帳戶建立連結。"</string>
+    <string name="error_forbidden_action" msgid="1023483961100814358">"不允許執行這項動作"</string>
+    <string name="error_forbidden_list_access" msgid="1843695621827543473">"這份清單不開放查看"</string>
+    <string name="error_generic" msgid="8588391221420698561">"發生錯誤"</string>
+    <string name="all_categories" msgid="7327269535754951429">"所有類別"</string>
+    <string name="live_category" msgid="1223570493160116614">"即時放送！"</string>
+    <string name="ok" msgid="4984722672564018307">"確定"</string>
+    <string name="cancel" msgid="2358776892905393697">"取消"</string>
+    <string name="confirm" msgid="466056620180183112">"確認"</string>
+    <string name="retry" msgid="7580519258934142753">"重試"</string>
+    <string name="tap_to_retry" msgid="1298965456496484428">"輕按此處，再試一次"</string>
+    <string name="dont_show_again" msgid="786736649151662618">"不要再顯示提醒"</string>
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <string name="time_filter_today" msgid="4583546815410219284">"今天"</string>
+    <string name="time_filter_this_week" msgid="5813004703500752175">"本週"</string>
+    <string name="time_filter_this_month" msgid="8210393087019089884">"本月"</string>
+    <string name="time_filter_all_time" msgid="8122803103693352906">"所有時間"</string>
+    <string name="time_filter_next_24_hours" msgid="7491506657378680252">"未來 24 小時"</string>
+    <string name="time_filter_next_7_days" msgid="468996283535983949">"未來 7 天"</string>
+    <string name="statistic_filter_top_rated" msgid="2702452948496701340">"評分最高的影片"</string>
+    <string name="statistic_filter_top_favorited" msgid="1506517547757930229">"最受喜愛的影片"</string>
+    <string name="statistic_filter_most_viewed" msgid="6481521188330569959">"觀看次數最多"</string>
+    <string name="statistic_filter_most_discussed" msgid="1683404206032595533">"評論最多的影片"</string>
+    <string name="flag_reason_porn" msgid="1094162325540923312">"色情內容"</string>
+    <string name="flag_reason_violence" msgid="5567477933154420778">"暴力或令人厭惡的內容"</string>
+    <string name="flag_reason_hate" msgid="3745113319524776191">"仇恨或惡意內容"</string>
+    <string name="flag_reason_dangerous" msgid="1466151556214304372">"有害或危險行為"</string>
+    <string name="flag_reason_spam" msgid="1209550729002669241">"垃圾內容"</string>
+    <string name="flag_reason_rights" msgid="326078918880879336">"侵犯我的版權"</string>
+    <string name="subtitles" msgid="1977301636988723973">"字幕"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"關閉字幕"</string>
+    <string name="no_subtitles" msgid="4986303295142175942">"這部影片沒有可用字幕"</string>
+    <string name="video_privacy_public" msgid="5579705185029422662">"公開"</string>
+    <string name="video_privacy_private" msgid="3678110889381442872">"私人"</string>
+    <string name="video_privacy_unlisted" msgid="4283665089130353350">"非公開"</string>
+    <string name="upload_finished_notification_title" msgid="764477179000129056">"影片已上傳成功"</string>
+    <string name="sharing_post_failed_single" msgid="3092260431038695250">"分享到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 時發生問題。"</string>
+    <string name="sharing_post_failed_multiple" msgid="6678904947228468528">"分享到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 和其他社交網路時發生問題。"</string>
+    <string name="sharing_post_success_single" msgid="1801875786347877139">"分享到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g>。"</string>
+    <string name="sharing_post_success_multiple" msgid="2069433591097081726">"分享到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 和其他社交網路。"</string>
+    <string name="accounts_title" msgid="4721231931148866782">"登入"</string>
+    <string name="other_account" msgid="3937862708075932733">"新增帳戶"</string>
+    <string name="processing_video" msgid="6308541044349424386">"影片處理中"</string>
+    <string name="try_again_later" msgid="4095675315043788941">"請稍後再試。"</string>
+    <string name="video_was_deleted" msgid="2148175171179083323">"擁有者已刪除此影片。"</string>
+    <string name="video_not_available" msgid="6617902565535420195">"這部影片無法播放"</string>
+    <string name="problem_while_playing" msgid="3053586955704601439">"播放時發生問題"</string>
+    <string name="problem_while_playing_with_code" msgid="6842849126785729647">"播放影片時發生問題 [<xliff:g id="ERROR_CODE">%1$d</xliff:g>]"</string>
+    <string name="unable_to_connect" msgid="7975874433500032709">"無法連線至伺服器"</string>
+    <string name="connection_to_server_lost" msgid="5188941415746504351">"與伺服器的連線中斷"</string>
+    <string name="unsupported_video_format" msgid="6581610518792199244">"不支援的影片格式"</string>
+    <string name="embedding_not_allowed" msgid="2276938012740817565">"已依內容擁有者要求停用嵌入功能。"</string>
+    <string name="video_infringes_copyright" msgid="405112542760824342">"這部影片已侵犯版權"</string>
+    <string name="video_was_judged_inappropriate" msgid="3094939591548712295">"這部影片已經審查判定內含不當內容"</string>
+    <string name="duplicate_upload" msgid="4121037025019181231">"這部影片遭到拒絕 (重複上傳)"</string>
+    <string name="video_violated_terms_of_use" msgid="5939015477990642511">"這部影片違反使用條款"</string>
+    <string name="uploader_account_suspended" msgid="478921997329484038">"上傳者的帳戶已遭停權"</string>
+    <string name="video_too_long" msgid="920962005485307212">"這部影片時間過長"</string>
+    <string name="blocked_by_content_owner" msgid="3409643252225778636">"已由內容擁有者封鎖"</string>
+    <string name="video_not_available_in_your_country" msgid="2606970418922492683">"無法在您的國家/地區播放"</string>
+    <string name="video_not_available_on_mobile" msgid="7967455158803415329">"內容擁有者尚未授與這部影片的行動裝置播放權限"</string>
+    <string name="video_is_private" msgid="4035365641729391026">"這是私人影片"</string>
+    <string name="video_couldnt_be_processed" msgid="1039701253687345063">"無法轉換這部影片"</string>
+    <string name="video_is_in_an_invalid_format" msgid="6468168866849783876">"這部影片的檔案格式無效"</string>
+    <string name="video_uses_an_unsupported_codec" msgid="5031422885367214838">"這部影片使用不支援的編碼器"</string>
+    <string name="video_is_empty" msgid="3140641145159105643">"這部影片沒有任何內容"</string>
+    <string name="video_is_too_small" msgid="6940775886744472544">"這部影片太小"</string>
+    <string name="adult_content_intro" msgid="4584417345075529875">"YouTube 使用者社群指出，這部影片的內容可能不宜某些使用者觀看。"</string>
+    <string name="adult_content_confirm_single_video" msgid="5310148582462951676">"請確認您是否要觀看這部影片。"</string>
+    <string name="adult_content_underage" msgid="5362752285669954500">"很抱歉，您必須年滿 18 歲才能觀看此影片。"</string>
+    <string name="event_video_rated" msgid="872838196913112744">"<xliff:g id="USERNAME">%1$s</xliff:g> 已評分"</string>
+    <string name="event_video_shared" msgid="5584437040368965149">"<xliff:g id="USERNAME">%1$s</xliff:g> 分享了影片"</string>
+    <string name="event_video_favorited" msgid="927594648101735146">"<xliff:g id="USERNAME">%1$s</xliff:g> 已將影片加入最愛"</string>
+    <string name="event_video_commented" msgid="9186653372018056391">"<xliff:g id="USERNAME">%1$s</xliff:g> 發表了評論"</string>
+    <string name="event_video_uploaded" msgid="8057976670532000500">"<xliff:g id="USERNAME">%1$s</xliff:g> 上傳了影片"</string>
+    <string name="event_video_added_to_playlist" msgid="7551840211732155658">"&lt;b&gt;<xliff:g id="USERNAME">%1$s</xliff:g>&lt;/b&gt; 已將影片加入播放清單"</string>
+    <string name="event_friend_added" msgid="7546667243222165309">"<xliff:g id="USERNAME">%1$s</xliff:g> 和以下使用者成為好友："</string>
+    <string name="event_user_subscription_added" msgid="91796276730839507">"<xliff:g id="USERNAME">%1$s</xliff:g> 已訂閱"</string>
+    <string name="playlist_skipped_unavailable_videos" msgid="2936485500392428339">"已略過無法播放的影片"</string>
+    <string name="autoplay_restriction" msgid="158389253268740063">"內容擁有者已停用自動播放功能。"</string>
+    <string name="ad_portrait" msgid="1358747127755966100">"廣告時間還剩 <xliff:g id="REMAININGTIME">%1$s</xliff:g>"</string>
+    <string name="ad_landscape_title" msgid="3784037264960188995">"廣告：<xliff:g id="VIDEO_TITLE">%1$s</xliff:g> »"</string>
+    <string name="ad_landscape_no_title" msgid="6353310680522992091">"廣告"</string>
+    <string name="ad_learn_more" msgid="7679953743831880120">"瞭解詳情 »"</string>
+    <string name="skip_ad_in" msgid="6115543065029677545">"您可以在 <xliff:g id="VALUE">%1$d</xliff:g> 秒後略過這個廣告"</string>
+    <string name="skip_ad" msgid="2101576881589909777">"略過廣告 »"</string>
+    <string name="ad_next_up" msgid="9052397347269182787">"即將播放..."</string>
+    <string name="ad_remaining_time" msgid="3831978919678409371">"廣告 <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+  <plurals name="years_ago">
+    <item quantity="one" msgid="6011164943434808302">"1 年前"</item>
+    <item quantity="other" msgid="7324060933851047369">"<xliff:g id="VALUE">%1$d</xliff:g> 年前"</item>
+  </plurals>
+  <plurals name="months_ago">
+    <item quantity="one" msgid="8251222113661446110">"1 個月前"</item>
+    <item quantity="other" msgid="928004251516590089">"<xliff:g id="VALUE">%1$d</xliff:g> 個月前"</item>
+  </plurals>
+  <plurals name="weeks_ago">
+    <item quantity="one" msgid="8220753762287286497">"1 週前"</item>
+    <item quantity="other" msgid="2091458284539717924">"<xliff:g id="VALUE">%1$d</xliff:g> 週前"</item>
+  </plurals>
+  <plurals name="days_ago">
+    <item quantity="one" msgid="4735281061933538352">"1 天前"</item>
+    <item quantity="other" msgid="8783340047415572507">"<xliff:g id="VALUE">%1$d</xliff:g> 天前"</item>
+  </plurals>
+  <plurals name="hours_ago">
+    <item quantity="one" msgid="2033749590885801009">"1 小時前"</item>
+    <item quantity="other" msgid="6461305084541029739">"<xliff:g id="VALUE">%1$d</xliff:g> 小時前"</item>
+  </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="one" msgid="5196995110076754587">"1 分鐘前"</item>
+    <item quantity="other" msgid="1667629255683993462">"<xliff:g id="VALUE">%1$d</xliff:g> 分鐘前"</item>
+  </plurals>
+  <plurals name="seconds_ago">
+    <item quantity="one" msgid="5001191853871840989">"1 秒前"</item>
+    <item quantity="other" msgid="2961716134454596813">"<xliff:g id="VALUE">%1$d</xliff:g> 秒前"</item>
+  </plurals>
+  <plurals name="days_remaining">
+    <item quantity="one" msgid="6688672348263993459">"1 天後到期"</item>
+    <item quantity="other" msgid="3445293740702296105">"<xliff:g id="DAYS">%1$d</xliff:g> 天後過期"</item>
+  </plurals>
+  <plurals name="hours_remaining">
+    <item quantity="one" msgid="223247784598159171">"1 小時後到期"</item>
+    <item quantity="other" msgid="3723393716802971786">"<xliff:g id="HOURS">%1$d</xliff:g> 小時後過期"</item>
+  </plurals>
+    <string name="less_then_one_hour_remaining" msgid="3170843909663366351">"1 小時內到期"</string>
+    <string name="about_to_expire" msgid="1138849960294296793">"即將過期"</string>
+    <string name="expired" msgid="4163617224776035785">"已到期"</string>
+    <string name="live_event_unavailable" msgid="3482822753939282549">"無法收看"</string>
+    <string name="live_event_cant_replay" msgid="610249048947214821">"無法再播放"</string>
+    <string name="live_event_starts_at" msgid="6278413483327194253">"這個現場活動將在 <xliff:g id="TIME">%1$s</xliff:g> 開始"</string>
+    <string name="live_started_when" msgid="893013096657434448">"<xliff:g id="VALUE">%1$s</xliff:g>已開始"</string>
+    <string name="live_starting_today_when" msgid="3614812749139425283">"今日 <xliff:g id="VALUE">%1$s</xliff:g> 播出"</string>
+    <string name="live_starting_when" msgid="6122965173933332413">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="open_source_licenses_title" msgid="122604737063804870">"開放原始碼授權"</string>
+    <string name="open_source_licenses_description" msgid="1772312313191687173">"開放原始碼軟體的授權詳細資料"</string>
+    <string name="accessibility_enter_fullscreen" msgid="2145998186071424023">"進入全螢幕模式"</string>
+    <string name="accessibility_exit_fullscreen" msgid="7379786446110918503">"結束全螢幕模式"</string>
+    <string name="accessibility_closed_captions" msgid="8652785807213850219">"顯示隱藏式輔助字幕選單"</string>
+    <string name="accessibility_play" msgid="1639109792960696807">"播放影片"</string>
+    <string name="accessibility_pause" msgid="7571337388732623918">"暫停影片"</string>
+    <string name="accessibility_replay" msgid="4609928826261820283">"重播影片"</string>
+    <string name="accessibility_hq" msgid="4879694023617718380">"切換至高畫質"</string>
+    <string name="accessibility_lq" msgid="4739539512111087659">"切換至低畫質"</string>
+    <string name="accessibility_next" msgid="4162310692370592051">"下一部影片"</string>
+    <string name="accessibility_previous" msgid="4250268136510902573">"上一部影片"</string>
+    <string name="accessibility_show_options_menu" msgid="7554607793620721055">"顯示選項選單"</string>
+    <string name="accessibility_play_in_youtube" msgid="3666001248855022228">"在 YouTube 應用程式中播放"</string>
+</resources>

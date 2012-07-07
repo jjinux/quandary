@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="results" msgid="3491858164798373513">"Kết quả"</string>
+    <string name="share_subject" msgid="4288655105936857100">"Xem \"<xliff:g id="VIDEO_TITLE">%1$s</xliff:g>\" trên YouTube"</string>
+    <string name="no_network" msgid="4034091614982104955">"Hiện không có kết nối mạng nào. Vui lòng thử lại sau."</string>
+    <string name="send_video" msgid="1807054013787019321">"Chia sẻ video này qua"</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"Chọn video để tải lên"</string>
+    <string name="warning_3d_bandwidth" msgid="8791840892348766650">"Video định dạng 3D tốn rất nhiều dữ liệu và hoạt động tốt nhất trên kết nối WiFi"</string>
+    <string name="error_network" msgid="6203606370875060882">"Đã xảy ra sự cố với mạng"</string>
+    <string name="error_connection" msgid="2998095651459626987">"Đã xảy ra sự cố khi kết nối mạng"</string>
+    <string name="error_http" msgid="5344829683089448616">"Đã xảy ra sự cố với mạng [<xliff:g id="HTTP_ERROR">%1$s</xliff:g>]"</string>
+    <string name="error_youtube_server_down" msgid="4707901657961236961">"YouTube tạm thời không khả dụng."</string>
+    <string name="error_response" msgid="1670518993171072015">"Đã xảy ra sự cố với phản hồi mạng"</string>
+    <string name="error_response_invalid" msgid="170451687814499718">"Định dạng phản hồi của mạng không hợp lệ"</string>
+    <string name="error_dev_reg" msgid="4384345559801694025">"Đã xảy ra sự cố khi khởi động. Vui lòng kiểm tra kết nối mạng và thời gian hệ thống của bạn."</string>
+    <string name="error_authenticating" msgid="6511119385715669049">"Đã xảy ra lỗi khi xác thực"</string>
+    <string name="error_no_linked_youtube_account" msgid="2109268361764786379">"TK của bạn không được liên kết với TK YouTube."\n"Đăng nhập tại www.youtube.com để liên kết các TK."</string>
+    <string name="error_forbidden_action" msgid="1023483961100814358">"Tác vụ này không được phép"</string>
+    <string name="error_forbidden_list_access" msgid="1843695621827543473">"Không thể xem danh sách này"</string>
+    <string name="error_generic" msgid="8588391221420698561">"Đã xảy ra lỗi"</string>
+    <string name="all_categories" msgid="7327269535754951429">"Tất cả"</string>
+    <string name="live_category" msgid="1223570493160116614">"Trực tuyến!"</string>
+    <string name="ok" msgid="4984722672564018307">"OK"</string>
+    <string name="cancel" msgid="2358776892905393697">"Hủy"</string>
+    <string name="confirm" msgid="466056620180183112">"Xác nhận"</string>
+    <string name="retry" msgid="7580519258934142753">"Thử lại"</string>
+    <string name="tap_to_retry" msgid="1298965456496484428">"Chạm để thử lại"</string>
+    <string name="dont_show_again" msgid="786736649151662618">"Không hiển thị lại lần nữa"</string>
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <string name="time_filter_today" msgid="4583546815410219284">"Hôm nay"</string>
+    <string name="time_filter_this_week" msgid="5813004703500752175">"Tuần này"</string>
+    <string name="time_filter_this_month" msgid="8210393087019089884">"Tháng này"</string>
+    <string name="time_filter_all_time" msgid="8122803103693352906">"Mọi lúc"</string>
+    <string name="time_filter_next_24_hours" msgid="7491506657378680252">"24 giờ tới"</string>
+    <string name="time_filter_next_7_days" msgid="468996283535983949">"7 ngày tiếp theo"</string>
+    <string name="statistic_filter_top_rated" msgid="2702452948496701340">"Được x.hạng cao nhất"</string>
+    <string name="statistic_filter_top_favorited" msgid="1506517547757930229">"Được yêu thích nhất"</string>
+    <string name="statistic_filter_most_viewed" msgid="6481521188330569959">"Được xem nhiều nhất"</string>
+    <string name="statistic_filter_most_discussed" msgid="1683404206032595533">"Thảo luận nhiều nhất"</string>
+    <string name="flag_reason_porn" msgid="1094162325540923312">"Nội dung khiêu dâm"</string>
+    <string name="flag_reason_violence" msgid="5567477933154420778">"Nội dung bạo lực hoặc phản cảm"</string>
+    <string name="flag_reason_hate" msgid="3745113319524776191">"Nội dung kích động thù địch hoặc lạm dụng"</string>
+    <string name="flag_reason_dangerous" msgid="1466151556214304372">"Hành động gây hại nguy hiểm"</string>
+    <string name="flag_reason_spam" msgid="1209550729002669241">"Spam"</string>
+    <string name="flag_reason_rights" msgid="326078918880879336">"Vi phạm quyền của tôi"</string>
+    <string name="subtitles" msgid="1977301636988723973">"Chú thích"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"Tắt chú thích"</string>
+    <string name="no_subtitles" msgid="4986303295142175942">"Không có chú thích cho video này"</string>
+    <string name="video_privacy_public" msgid="5579705185029422662">"Công khai"</string>
+    <string name="video_privacy_private" msgid="3678110889381442872">"Riêng tư"</string>
+    <string name="video_privacy_unlisted" msgid="4283665089130353350">"Không công bố"</string>
+    <string name="upload_finished_notification_title" msgid="764477179000129056">"Đã tải video lên thành công"</string>
+    <string name="sharing_post_failed_single" msgid="3092260431038695250">"Đã xảy ra lỗi khi chia sẻ với <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_failed_multiple" msgid="6678904947228468528">"Đã xảy ra lỗi khi chia sẻ với <xliff:g id="NETWORK_NAME">%1$s</xliff:g> và mạng XH khác."</string>
+    <string name="sharing_post_success_single" msgid="1801875786347877139">"Đã chia sẻ với <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_success_multiple" msgid="2069433591097081726">"Đã chia sẻ với <xliff:g id="NETWORK_NAME">%1$s</xliff:g> và các mạng xã hội khác."</string>
+    <string name="accounts_title" msgid="4721231931148866782">"Đăng nhập"</string>
+    <string name="other_account" msgid="3937862708075932733">"Thêm tài khoản"</string>
+    <string name="processing_video" msgid="6308541044349424386">"Video này đang được xử lý"</string>
+    <string name="try_again_later" msgid="4095675315043788941">"Bạn có thể thử lại sau."</string>
+    <string name="video_was_deleted" msgid="2148175171179083323">"Video này đã bị chủ sở hữu xóa"</string>
+    <string name="video_not_available" msgid="6617902565535420195">"Video này không có sẵn"</string>
+    <string name="problem_while_playing" msgid="3053586955704601439">"Đã xảy ra sự cố khi phát"</string>
+    <string name="problem_while_playing_with_code" msgid="6842849126785729647">"Đã xảy ra sự cố khi phát [ <xliff:g id="ERROR_CODE">%1$d</xliff:g> ]"</string>
+    <string name="unable_to_connect" msgid="7975874433500032709">"Không thể kết nối tới máy chủ"</string>
+    <string name="connection_to_server_lost" msgid="5188941415746504351">"Kết nối với máy chủ bị mất"</string>
+    <string name="unsupported_video_format" msgid="6581610518792199244">"Định dạng video không được hỗ trợ"</string>
+    <string name="embedding_not_allowed" msgid="2276938012740817565">"Đã tắt nhúng theo yêu cầu của chủ sở hữu nội dung."</string>
+    <string name="video_infringes_copyright" msgid="405112542760824342">"Video này đã vi phạm bản quyền"</string>
+    <string name="video_was_judged_inappropriate" msgid="3094939591548712295">"Video này bị đánh giá không phù hợp"</string>
+    <string name="duplicate_upload" msgid="4121037025019181231">"Video này bị từ chối (tải lên trùng lặp)"</string>
+    <string name="video_violated_terms_of_use" msgid="5939015477990642511">"Video này đã vi phạm điều khoản sử dụng"</string>
+    <string name="uploader_account_suspended" msgid="478921997329484038">"Tài khoản của người tải lên bị tạm ngừng"</string>
+    <string name="video_too_long" msgid="920962005485307212">"Video này quá dài"</string>
+    <string name="blocked_by_content_owner" msgid="3409643252225778636">"Bị chặn bởi chủ sở hữu nội dung"</string>
+    <string name="video_not_available_in_your_country" msgid="2606970418922492683">"Chưa có tại quốc gia của bạn"</string>
+    <string name="video_not_available_on_mobile" msgid="7967455158803415329">"Chủ  n.d chưa c.cấp video trên DĐ"</string>
+    <string name="video_is_private" msgid="4035365641729391026">"Video này là riêng tư"</string>
+    <string name="video_couldnt_be_processed" msgid="1039701253687345063">"Không thể chuyển đổi video này"</string>
+    <string name="video_is_in_an_invalid_format" msgid="6468168866849783876">"Video này ở định dạng tệp không hợp lệ"</string>
+    <string name="video_uses_an_unsupported_codec" msgid="5031422885367214838">"Video này sử dụng codec ko được hỗ trợ"</string>
+    <string name="video_is_empty" msgid="3140641145159105643">"Video này trống"</string>
+    <string name="video_is_too_small" msgid="6940775886744472544">"Video này quá nhỏ"</string>
+    <string name="adult_content_intro" msgid="4584417345075529875">"Video này có thể chứa nội dung không phù hợp đối với một số người dùng vì bị cộng đồng người dùng YouTube gắn cờ."</string>
+    <string name="adult_content_confirm_single_video" msgid="5310148582462951676">"Vui lòng xác nhận rằng bạn muốn xem video."</string>
+    <string name="adult_content_underage" msgid="5362752285669954500">"Rất tiếc, bạn phải từ 18 tuổi trở lên để xem video này."</string>
+    <string name="event_video_rated" msgid="872838196913112744">"<xliff:g id="USERNAME">%1$s</xliff:g> đã xếp hạng"</string>
+    <string name="event_video_shared" msgid="5584437040368965149">"<xliff:g id="USERNAME">%1$s</xliff:g> đã chia sẻ"</string>
+    <string name="event_video_favorited" msgid="927594648101735146">"<xliff:g id="USERNAME">%1$s</xliff:g> đã yêu thích"</string>
+    <string name="event_video_commented" msgid="9186653372018056391">"<xliff:g id="USERNAME">%1$s</xliff:g> đã nhận xét"</string>
+    <string name="event_video_uploaded" msgid="8057976670532000500">"<xliff:g id="USERNAME">%1$s</xliff:g> đã tải lên"</string>
+    <string name="event_video_added_to_playlist" msgid="7551840211732155658">"&lt;b&gt;<xliff:g id="USERNAME">%1$s</xliff:g>&lt;/b&gt; đã thêm vào danh sách phát"</string>
+    <string name="event_friend_added" msgid="7546667243222165309">"<xliff:g id="USERNAME">%1$s</xliff:g> trở thành bạn của"</string>
+    <string name="event_user_subscription_added" msgid="91796276730839507">"<xliff:g id="USERNAME">%1$s</xliff:g> đã đăng ký"</string>
+    <string name="playlist_skipped_unavailable_videos" msgid="2936485500392428339">"Đã bỏ qua một hoặc nhiều video không có sẵn"</string>
+    <string name="autoplay_restriction" msgid="158389253268740063">"Chủ sở hữu đã vô hiệu hóa tự động phát."</string>
+    <string name="ad_portrait" msgid="1358747127755966100">"Quảng cáo <xliff:g id="REMAININGTIME">%1$s</xliff:g>"</string>
+    <string name="ad_landscape_title" msgid="3784037264960188995">"Quảng cáo: <xliff:g id="VIDEO_TITLE">%1$s</xliff:g> »"</string>
+    <string name="ad_landscape_no_title" msgid="6353310680522992091">"Quảng cáo"</string>
+    <string name="ad_learn_more" msgid="7679953743831880120">"Tìm hiểu thêm »"</string>
+    <string name="skip_ad_in" msgid="6115543065029677545">"Bạn có thể bỏ qua quảng cáo này trong <xliff:g id="VALUE">%1$d</xliff:g> giây"</string>
+    <string name="skip_ad" msgid="2101576881589909777">"Bỏ qua quảng cáo »"</string>
+    <string name="ad_next_up" msgid="9052397347269182787">"Tiếp theo…"</string>
+    <string name="ad_remaining_time" msgid="3831978919678409371">"Quảng cáo <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+  <plurals name="years_ago">
+    <item quantity="one" msgid="6011164943434808302">"1 năm trước"</item>
+    <item quantity="other" msgid="7324060933851047369">"<xliff:g id="VALUE">%1$d</xliff:g> năm trước"</item>
+  </plurals>
+  <plurals name="months_ago">
+    <item quantity="one" msgid="8251222113661446110">"1 tháng trước"</item>
+    <item quantity="other" msgid="928004251516590089">"<xliff:g id="VALUE">%1$d</xliff:g> tháng trước"</item>
+  </plurals>
+  <plurals name="weeks_ago">
+    <item quantity="one" msgid="8220753762287286497">"1 tuần trước"</item>
+    <item quantity="other" msgid="2091458284539717924">"<xliff:g id="VALUE">%1$d</xliff:g> tuần trước"</item>
+  </plurals>
+  <plurals name="days_ago">
+    <item quantity="one" msgid="4735281061933538352">"1 ngày trước"</item>
+    <item quantity="other" msgid="8783340047415572507">"<xliff:g id="VALUE">%1$d</xliff:g> ngày trước"</item>
+  </plurals>
+  <plurals name="hours_ago">
+    <item quantity="one" msgid="2033749590885801009">"1 giờ trước"</item>
+    <item quantity="other" msgid="6461305084541029739">"<xliff:g id="VALUE">%1$d</xliff:g> giờ trước"</item>
+  </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="one" msgid="5196995110076754587">"1 phút trước"</item>
+    <item quantity="other" msgid="1667629255683993462">"<xliff:g id="VALUE">%1$d</xliff:g> phút trước"</item>
+  </plurals>
+  <plurals name="seconds_ago">
+    <item quantity="one" msgid="5001191853871840989">"1 giây trước"</item>
+    <item quantity="other" msgid="2961716134454596813">"<xliff:g id="VALUE">%1$d</xliff:g> giây trước"</item>
+  </plurals>
+  <plurals name="days_remaining">
+    <item quantity="one" msgid="6688672348263993459">"Hết hạn sau 1 ngày"</item>
+    <item quantity="other" msgid="3445293740702296105">"H.hạn sau <xliff:g id="DAYS">%1$d</xliff:g> ngày"</item>
+  </plurals>
+  <plurals name="hours_remaining">
+    <item quantity="one" msgid="223247784598159171">"Hết hạn sau 1 giờ"</item>
+    <item quantity="other" msgid="3723393716802971786">"Hết hạn sau <xliff:g id="HOURS">%1$d</xliff:g> giờ"</item>
+  </plurals>
+    <string name="less_then_one_hour_remaining" msgid="3170843909663366351">"Hết hạn trong vòng chưa đầy 1 giờ"</string>
+    <string name="about_to_expire" msgid="1138849960294296793">"Sắp hết hạn"</string>
+    <string name="expired" msgid="4163617224776035785">"Đã hết hạn"</string>
+    <string name="live_event_unavailable" msgid="3482822753939282549">"Không có sẵn"</string>
+    <string name="live_event_cant_replay" msgid="610249048947214821">"Không còn có sẵn nữa"</string>
+    <string name="live_event_starts_at" msgid="6278413483327194253">"Sự kiện trực tuyến này sẽ bắt đầu lúc <xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="live_started_when" msgid="893013096657434448">"Đã bắt đầu <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_today_when" msgid="3614812749139425283">"Hôm nay lúc <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_when" msgid="6122965173933332413">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="open_source_licenses_title" msgid="122604737063804870">"Giấy phép nguồn mở"</string>
+    <string name="open_source_licenses_description" msgid="1772312313191687173">"Chi tiết giấy phép của phần mềm nguồn mở"</string>
+    <string name="accessibility_enter_fullscreen" msgid="2145998186071424023">"Vào toàn màn hình"</string>
+    <string name="accessibility_exit_fullscreen" msgid="7379786446110918503">"Thoát toàn màn hình"</string>
+    <string name="accessibility_closed_captions" msgid="8652785807213850219">"Hiển thị trình đơn phụ đề"</string>
+    <string name="accessibility_play" msgid="1639109792960696807">"Phát video"</string>
+    <string name="accessibility_pause" msgid="7571337388732623918">"Dừng video"</string>
+    <string name="accessibility_replay" msgid="4609928826261820283">"Phát lại video"</string>
+    <string name="accessibility_hq" msgid="4879694023617718380">"Sang chất lượng cao"</string>
+    <string name="accessibility_lq" msgid="4739539512111087659">"Sang chất lượng thấp"</string>
+    <string name="accessibility_next" msgid="4162310692370592051">"Video tiếp theo"</string>
+    <string name="accessibility_previous" msgid="4250268136510902573">"Video trước"</string>
+    <string name="accessibility_show_options_menu" msgid="7554607793620721055">"Hiển thị trình đơn tùy chọn"</string>
+    <string name="accessibility_play_in_youtube" msgid="3666001248855022228">"Phát trong ứng dụng YouTube"</string>
+</resources>

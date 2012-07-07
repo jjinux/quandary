@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Google Inc. All Rights Reserved.
+
+  author: rmcilroy@google.com (Ross McIlroy)
+-->
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <com.google.android.youtube.core.player.TvControlsView
+      android:id="@+id/controls"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="60dp"
+      android:visibility="gone">
+
+    <Button
+        android:id="@+id/fullscreen"
+        android:tag="@string/tv_controller_extra_button"
+        style="@style/TvControllerOverlayButton"
+        android:background="@drawable/tv_controller_overlay_button_fullscreen"/>
+
+  </com.google.android.youtube.core.player.TvControlsView>
+
+  <ProgressBar
+      android:id="@+id/loading_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      style="@android:style/Widget.ProgressBar"/>
+
+  <ImageView
+      android:id="@+id/keyAction"
+      android:layout_centerInParent="true"
+      android:layout_margin="20dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="invisible"/>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/error_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:padding="10dp"
+      android:orientation="horizontal"
+      android:visibility="gone">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/alert_error"/>
+
+    <!-- width=0dp and weight=1 ensure that the TextView expands to fill the available space, while
+         preventing it from squashing the following Button view -->
+    <TextView
+        android:id="@+id/error_view_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:maxLines="2"
+        android:textColor="@color/grey"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/error_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="13dp"
+        android:textColor="@color/text_tv_regular"
+        android:textStyle="bold"
+        android:text="@string/retry"/>
+
+  </LinearLayout>
+
+</RelativeLayout>

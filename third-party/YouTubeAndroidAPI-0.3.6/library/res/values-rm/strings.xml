@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- no translation found for results (3491858164798373513) -->
+    <skip />
+    <!-- no translation found for share_subject (4288655105936857100) -->
+    <skip />
+    <string name="no_network" msgid="4034091614982104955">"Actualmain n\'è nagina connexiun a la rait disponibla. Empruvai per plaschair pli tard anc ina giada."</string>
+    <string name="send_video" msgid="1807054013787019321">"Cundivider il video cun agid da"</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"Tscherni in video per transferir"</string>
+    <!-- no translation found for warning_3d_bandwidth (8791840892348766650) -->
+    <skip />
+    <!-- no translation found for error_network (6203606370875060882) -->
+    <skip />
+    <!-- no translation found for error_connection (2998095651459626987) -->
+    <skip />
+    <!-- no translation found for error_http (5344829683089448616) -->
+    <skip />
+    <!-- no translation found for error_youtube_server_down (4707901657961236961) -->
+    <skip />
+    <!-- no translation found for error_response (1670518993171072015) -->
+    <skip />
+    <!-- no translation found for error_response_invalid (170451687814499718) -->
+    <skip />
+    <!-- no translation found for error_dev_reg (4384345559801694025) -->
+    <skip />
+    <!-- no translation found for error_authenticating (6511119385715669049) -->
+    <skip />
+    <!-- no translation found for error_no_linked_youtube_account (2109268361764786379) -->
+    <skip />
+    <!-- no translation found for error_forbidden_action (1023483961100814358) -->
+    <skip />
+    <!-- no translation found for error_forbidden_list_access (1843695621827543473) -->
+    <skip />
+    <!-- no translation found for error_generic (8588391221420698561) -->
+    <skip />
+    <!-- no translation found for all_categories (7327269535754951429) -->
+    <skip />
+    <!-- no translation found for live_category (1223570493160116614) -->
+    <skip />
+    <string name="ok" msgid="4984722672564018307">"OK"</string>
+    <string name="cancel" msgid="2358776892905393697">"Interrumper"</string>
+    <string name="confirm" msgid="466056620180183112">"Confermar"</string>
+    <!-- no translation found for retry (7580519258934142753) -->
+    <skip />
+    <!-- no translation found for tap_to_retry (1298965456496484428) -->
+    <skip />
+    <!-- no translation found for dont_show_again (786736649151662618) -->
+    <skip />
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <!-- no translation found for time_filter_today (4583546815410219284) -->
+    <skip />
+    <!-- no translation found for time_filter_this_week (5813004703500752175) -->
+    <skip />
+    <!-- no translation found for time_filter_this_month (8210393087019089884) -->
+    <skip />
+    <!-- no translation found for time_filter_all_time (8122803103693352906) -->
+    <skip />
+    <!-- no translation found for time_filter_next_24_hours (7491506657378680252) -->
+    <skip />
+    <!-- no translation found for time_filter_next_7_days (468996283535983949) -->
+    <skip />
+    <!-- no translation found for statistic_filter_top_rated (2702452948496701340) -->
+    <skip />
+    <!-- no translation found for statistic_filter_top_favorited (1506517547757930229) -->
+    <skip />
+    <!-- no translation found for statistic_filter_most_viewed (6481521188330569959) -->
+    <skip />
+    <!-- no translation found for statistic_filter_most_discussed (1683404206032595533) -->
+    <skip />
+    <!-- no translation found for flag_reason_porn (1094162325540923312) -->
+    <skip />
+    <!-- no translation found for flag_reason_violence (5567477933154420778) -->
+    <skip />
+    <!-- no translation found for flag_reason_hate (3745113319524776191) -->
+    <skip />
+    <!-- no translation found for flag_reason_dangerous (1466151556214304372) -->
+    <skip />
+    <!-- no translation found for flag_reason_spam (1209550729002669241) -->
+    <skip />
+    <!-- no translation found for flag_reason_rights (326078918880879336) -->
+    <skip />
+    <string name="subtitles" msgid="1977301636988723973">"Suttitels"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"Deactivar ils suttitels"</string>
+    <!-- no translation found for no_subtitles (4986303295142175942) -->
+    <skip />
+    <!-- no translation found for video_privacy_public (5579705185029422662) -->
+    <skip />
+    <!-- no translation found for video_privacy_private (3678110889381442872) -->
+    <skip />
+    <!-- no translation found for video_privacy_unlisted (4283665089130353350) -->
+    <skip />
+    <!-- no translation found for upload_finished_notification_title (764477179000129056) -->
+    <skip />
+    <!-- no translation found for sharing_post_failed_single (3092260431038695250) -->
+    <skip />
+    <!-- no translation found for sharing_post_failed_multiple (6678904947228468528) -->
+    <skip />
+    <!-- no translation found for sharing_post_success_single (1801875786347877139) -->
+    <skip />
+    <!-- no translation found for sharing_post_success_multiple (2069433591097081726) -->
+    <skip />
+    <!-- no translation found for accounts_title (4721231931148866782) -->
+    <skip />
+    <string name="other_account" msgid="3937862708075932733">"Agiuntar in conto"</string>
+    <!-- no translation found for processing_video (6308541044349424386) -->
+    <skip />
+    <!-- no translation found for try_again_later (4095675315043788941) -->
+    <skip />
+    <!-- no translation found for video_was_deleted (2148175171179083323) -->
+    <skip />
+    <!-- no translation found for video_not_available (6617902565535420195) -->
+    <skip />
+    <!-- no translation found for problem_while_playing (3053586955704601439) -->
+    <skip />
+    <!-- no translation found for problem_while_playing_with_code (6842849126785729647) -->
+    <skip />
+    <!-- no translation found for unable_to_connect (7975874433500032709) -->
+    <skip />
+    <!-- no translation found for connection_to_server_lost (5188941415746504351) -->
+    <skip />
+    <!-- no translation found for unsupported_video_format (6581610518792199244) -->
+    <skip />
+    <!-- no translation found for embedding_not_allowed (2276938012740817565) -->
+    <skip />
+    <!-- no translation found for video_infringes_copyright (405112542760824342) -->
+    <skip />
+    <!-- no translation found for video_was_judged_inappropriate (3094939591548712295) -->
+    <skip />
+    <!-- no translation found for duplicate_upload (4121037025019181231) -->
+    <skip />
+    <!-- no translation found for video_violated_terms_of_use (5939015477990642511) -->
+    <skip />
+    <!-- no translation found for uploader_account_suspended (478921997329484038) -->
+    <skip />
+    <!-- no translation found for video_too_long (920962005485307212) -->
+    <skip />
+    <!-- no translation found for blocked_by_content_owner (3409643252225778636) -->
+    <skip />
+    <!-- no translation found for video_not_available_in_your_country (2606970418922492683) -->
+    <skip />
+    <!-- no translation found for video_not_available_on_mobile (7967455158803415329) -->
+    <skip />
+    <!-- no translation found for video_is_private (4035365641729391026) -->
+    <skip />
+    <!-- no translation found for video_couldnt_be_processed (1039701253687345063) -->
+    <skip />
+    <!-- no translation found for video_is_in_an_invalid_format (6468168866849783876) -->
+    <skip />
+    <!-- no translation found for video_uses_an_unsupported_codec (5031422885367214838) -->
+    <skip />
+    <!-- no translation found for video_is_empty (3140641145159105643) -->
+    <skip />
+    <!-- no translation found for video_is_too_small (6940775886744472544) -->
+    <skip />
+    <!-- no translation found for adult_content_intro (4584417345075529875) -->
+    <skip />
+    <!-- no translation found for adult_content_confirm_single_video (5310148582462951676) -->
+    <skip />
+    <string name="adult_content_underage" msgid="5362752285669954500">"\"Stgisa, per vesair quest video stos ti avair almain 18 onns.\""</string>
+    <!-- no translation found for event_video_rated (872838196913112744) -->
+    <skip />
+    <!-- no translation found for event_video_shared (5584437040368965149) -->
+    <skip />
+    <!-- no translation found for event_video_favorited (927594648101735146) -->
+    <skip />
+    <!-- no translation found for event_video_commented (9186653372018056391) -->
+    <skip />
+    <!-- no translation found for event_video_uploaded (8057976670532000500) -->
+    <skip />
+    <!-- no translation found for event_video_added_to_playlist (7551840211732155658) -->
+    <skip />
+    <!-- no translation found for event_friend_added (7546667243222165309) -->
+    <skip />
+    <!-- no translation found for event_user_subscription_added (91796276730839507) -->
+    <skip />
+    <!-- no translation found for playlist_skipped_unavailable_videos (2936485500392428339) -->
+    <skip />
+    <!-- no translation found for autoplay_restriction (158389253268740063) -->
+    <skip />
+    <!-- no translation found for ad_portrait (1358747127755966100) -->
+    <skip />
+    <!-- no translation found for ad_landscape_title (3784037264960188995) -->
+    <skip />
+    <!-- no translation found for ad_landscape_no_title (6353310680522992091) -->
+    <skip />
+    <!-- no translation found for ad_learn_more (7679953743831880120) -->
+    <skip />
+    <!-- no translation found for skip_ad_in (6115543065029677545) -->
+    <skip />
+    <!-- no translation found for skip_ad (2101576881589909777) -->
+    <skip />
+    <!-- no translation found for ad_next_up (9052397347269182787) -->
+    <skip />
+    <!-- no translation found for ad_remaining_time (3831978919678409371) -->
+    <skip />
+    <!-- no translation found for years_ago:one (6011164943434808302) -->
+    <!-- no translation found for years_ago:other (7324060933851047369) -->
+    <!-- no translation found for months_ago:one (8251222113661446110) -->
+    <!-- no translation found for months_ago:other (928004251516590089) -->
+    <!-- no translation found for weeks_ago:one (8220753762287286497) -->
+    <!-- no translation found for weeks_ago:other (2091458284539717924) -->
+    <!-- no translation found for days_ago:one (4735281061933538352) -->
+    <!-- no translation found for days_ago:other (8783340047415572507) -->
+    <!-- no translation found for hours_ago:one (2033749590885801009) -->
+    <!-- no translation found for hours_ago:other (6461305084541029739) -->
+    <!-- no translation found for minutes_ago:one (5196995110076754587) -->
+    <!-- no translation found for minutes_ago:other (1667629255683993462) -->
+    <!-- no translation found for seconds_ago:one (5001191853871840989) -->
+    <!-- no translation found for seconds_ago:other (2961716134454596813) -->
+    <!-- no translation found for days_remaining:one (6688672348263993459) -->
+    <!-- no translation found for days_remaining:other (3445293740702296105) -->
+    <!-- no translation found for hours_remaining:one (223247784598159171) -->
+    <!-- no translation found for hours_remaining:other (3723393716802971786) -->
+    <!-- no translation found for less_then_one_hour_remaining (3170843909663366351) -->
+    <skip />
+    <!-- no translation found for about_to_expire (1138849960294296793) -->
+    <skip />
+    <!-- no translation found for expired (4163617224776035785) -->
+    <skip />
+    <!-- no translation found for live_event_unavailable (3482822753939282549) -->
+    <skip />
+    <!-- no translation found for live_event_cant_replay (610249048947214821) -->
+    <skip />
+    <!-- no translation found for live_event_starts_at (6278413483327194253) -->
+    <skip />
+    <!-- no translation found for live_started_when (893013096657434448) -->
+    <skip />
+    <!-- no translation found for live_starting_today_when (3614812749139425283) -->
+    <skip />
+    <!-- no translation found for live_starting_when (6122965173933332413) -->
+    <skip />
+    <!-- no translation found for open_source_licenses_title (122604737063804870) -->
+    <skip />
+    <!-- no translation found for open_source_licenses_description (1772312313191687173) -->
+    <skip />
+    <!-- no translation found for accessibility_enter_fullscreen (2145998186071424023) -->
+    <skip />
+    <!-- no translation found for accessibility_exit_fullscreen (7379786446110918503) -->
+    <skip />
+    <!-- no translation found for accessibility_closed_captions (8652785807213850219) -->
+    <skip />
+    <!-- no translation found for accessibility_play (1639109792960696807) -->
+    <skip />
+    <!-- no translation found for accessibility_pause (7571337388732623918) -->
+    <skip />
+    <!-- no translation found for accessibility_replay (4609928826261820283) -->
+    <skip />
+    <!-- no translation found for accessibility_hq (4879694023617718380) -->
+    <skip />
+    <!-- no translation found for accessibility_lq (4739539512111087659) -->
+    <skip />
+    <!-- no translation found for accessibility_next (4162310692370592051) -->
+    <skip />
+    <!-- no translation found for accessibility_previous (4250268136510902573) -->
+    <skip />
+    <!-- no translation found for accessibility_show_options_menu (7554607793620721055) -->
+    <skip />
+    <!-- no translation found for accessibility_play_in_youtube (3666001248855022228) -->
+    <skip />
+</resources>

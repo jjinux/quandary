@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="results" msgid="3491858164798373513">"Αποτελέσματα"</string>
+    <string name="share_subject" msgid="4288655105936857100">"Παρακολουθήστε το \"<xliff:g id="VIDEO_TITLE">%1$s</xliff:g>\" στο YouTube"</string>
+    <string name="no_network" msgid="4034091614982104955">"Δεν υπάρχει σύνδεση δικτύου αυτήν τη στιγμή. Δοκιμάστε ξανά αργότερα."</string>
+    <string name="send_video" msgid="1807054013787019321">"Αποστολή αυτού του βίντεο μέσω"</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"Επιλέξτε βίντεο για μεταφόρτωση"</string>
+    <string name="warning_3d_bandwidth" msgid="8791840892348766650">"Τα βίντεο με φορμά 3D καταναλώνουν πολλά δεδομένα και λειτουργούν καλύτερα σε σύνδεση Wi-Fi"</string>
+    <string name="error_network" msgid="6203606370875060882">"Παρουσιάστηκε κάποιο πρόβλημα με το δίκτυο"</string>
+    <string name="error_connection" msgid="2998095651459626987">"Παρουσιάστηκε ένα πρόβλημα κατά τη σύνδεση στο δίκτυο"</string>
+    <string name="error_http" msgid="5344829683089448616">"Παρουσιάστηκε κάποιο πρόβλημα με το δίκτυο [<xliff:g id="HTTP_ERROR">%1$s</xliff:g>]"</string>
+    <string name="error_youtube_server_down" msgid="4707901657961236961">"Το YouTube δεν είναι διαθέσιμο προσωρινά."</string>
+    <string name="error_response" msgid="1670518993171072015">"Παρουσιάστηκε κάποιο πρόβλημα με την απόκριση του δικτύου"</string>
+    <string name="error_response_invalid" msgid="170451687814499718">"Μη έγκυρη μορφή απόκρισης δικτύου"</string>
+    <string name="error_dev_reg" msgid="4384345559801694025">"Σημειώθηκε πρόβλημα με την έναρξη. Ελέγξτε τη σύνδεση στο δίκτυο και την ώρα συστήματος."</string>
+    <string name="error_authenticating" msgid="6511119385715669049">"Υπήρξε κάποιο πρόβλημα με τον έλεγχο ταυτότητας"</string>
+    <string name="error_no_linked_youtube_account" msgid="2109268361764786379">"Ο λογαριασμός σας δεν είναι συνδεδεμένος με κάποιον λογαριασμό στο YouTube."\n"Συνδεθείτε στη διεύθυνση www.youtube.com για να συνδέσετε τους λογαριασμούς σας."</string>
+    <string name="error_forbidden_action" msgid="1023483961100814358">"Η συγκεκριμένη ενέργεια δεν επιτρέπεται"</string>
+    <string name="error_forbidden_list_access" msgid="1843695621827543473">"Δεν είναι δυνατή η προβολή αυτής της λίστας"</string>
+    <string name="error_generic" msgid="8588391221420698561">"Παρουσιάστηκε σφάλμα"</string>
+    <string name="all_categories" msgid="7327269535754951429">"Όλα"</string>
+    <string name="live_category" msgid="1223570493160116614">"Ζωντανά!"</string>
+    <string name="ok" msgid="4984722672564018307">"ΟΚ"</string>
+    <string name="cancel" msgid="2358776892905393697">"Ακύρωση"</string>
+    <string name="confirm" msgid="466056620180183112">"Επιβεβαίωση"</string>
+    <string name="retry" msgid="7580519258934142753">"Επανάληψη"</string>
+    <string name="tap_to_retry" msgid="1298965456496484428">"Αγγίξτε για επανάληψη"</string>
+    <string name="dont_show_again" msgid="786736649151662618">"Να μην εμφανιστεί ξανά"</string>
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <string name="time_filter_today" msgid="4583546815410219284">"Σήμερα"</string>
+    <string name="time_filter_this_week" msgid="5813004703500752175">"Αυτήν την εβδομάδα"</string>
+    <string name="time_filter_this_month" msgid="8210393087019089884">"Αυτόν τον μήνα"</string>
+    <string name="time_filter_all_time" msgid="8122803103693352906">"Όλων των εποχών"</string>
+    <string name="time_filter_next_24_hours" msgid="7491506657378680252">"Επόμενες 24 ώρες"</string>
+    <string name="time_filter_next_7_days" msgid="468996283535983949">"Επόμενες 7 ημέρες"</string>
+    <string name="statistic_filter_top_rated" msgid="2702452948496701340">"Κορυφαία"</string>
+    <string name="statistic_filter_top_favorited" msgid="1506517547757930229">"Κορυφαία αγαπημένα"</string>
+    <string name="statistic_filter_most_viewed" msgid="6481521188330569959">"Περισσότ. προβολές"</string>
+    <string name="statistic_filter_most_discussed" msgid="1683404206032595533">"Τα πιο συζητημένα"</string>
+    <string name="flag_reason_porn" msgid="1094162325540923312">"Σεξουαλικό περιεχόμενο"</string>
+    <string name="flag_reason_violence" msgid="5567477933154420778">"Βίαιο ή αποκρουστικό περιεχόμενο"</string>
+    <string name="flag_reason_hate" msgid="3745113319524776191">"Εχθρικό ή υβριστικό περιεχόμενο"</string>
+    <string name="flag_reason_dangerous" msgid="1466151556214304372">"Επικίνδυνες δραστηριότητες"</string>
+    <string name="flag_reason_spam" msgid="1209550729002669241">"Ανεπιθύμητα μηνύματα"</string>
+    <string name="flag_reason_rights" msgid="326078918880879336">"Παραβιάζει τα δικαιώματά μου"</string>
+    <string name="subtitles" msgid="1977301636988723973">"Υπότιτλοι"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"Απενεργοποίηση υποτίτλων"</string>
+    <string name="no_subtitles" msgid="4986303295142175942">"Δεν υπάρχουν διαθέσιμοι υπότιτλοι για αυτό το βίντεο"</string>
+    <string name="video_privacy_public" msgid="5579705185029422662">"Δημόσιο"</string>
+    <string name="video_privacy_private" msgid="3678110889381442872">"Απόρρητο"</string>
+    <string name="video_privacy_unlisted" msgid="4283665089130353350">"Μη καταχωρισμένο"</string>
+    <string name="upload_finished_notification_title" msgid="764477179000129056">"Η μεταφόρτωση του βίντεο ολοκληρώθηκε με επιτυχία"</string>
+    <string name="sharing_post_failed_single" msgid="3092260431038695250">"Πρόβλημα κοινής χρήσης με το δίκτυο <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_failed_multiple" msgid="6678904947228468528">"Πρόβλημα κοινής χρήσης με το δίκτυο <xliff:g id="NETWORK_NAME">%1$s</xliff:g> και με άλλα κοινωνικά δίκτυα."</string>
+    <string name="sharing_post_success_single" msgid="1801875786347877139">"Σε κοινή χρήση με το δίκτυο <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_success_multiple" msgid="2069433591097081726">"Σε κοινή χρήση με το δίκτυο <xliff:g id="NETWORK_NAME">%1$s</xliff:g> και με άλλα κοινωνικά δίκτυα."</string>
+    <string name="accounts_title" msgid="4721231931148866782">"Σύνδεση"</string>
+    <string name="other_account" msgid="3937862708075932733">"Προσθήκη λογαριασμού"</string>
+    <string name="processing_video" msgid="6308541044349424386">"Γίνεται επεξεργασία αυτού του βίντεο"</string>
+    <string name="try_again_later" msgid="4095675315043788941">"Μπορείτε να δοκιμάσετε ξανά αργότερα."</string>
+    <string name="video_was_deleted" msgid="2148175171179083323">"Το βίντεο διαγράφηκε από τον κάτοχό του"</string>
+    <string name="video_not_available" msgid="6617902565535420195">"Αυτό το βίντεο δεν είναι διαθέσιμο"</string>
+    <string name="problem_while_playing" msgid="3053586955704601439">"Υπήρξε πρόβλημα κατά την αναπαραγωγή"</string>
+    <string name="problem_while_playing_with_code" msgid="6842849126785729647">"Σφάλμα κατά την αναπαραγωγή του [<xliff:g id="ERROR_CODE">%1$d</xliff:g>]"</string>
+    <string name="unable_to_connect" msgid="7975874433500032709">"Αδύνατη η σύνδεση στο διακομιστή"</string>
+    <string name="connection_to_server_lost" msgid="5188941415746504351">"Χάθηκε η σύνδεση με τον διακομιστή"</string>
+    <string name="unsupported_video_format" msgid="6581610518792199244">"Μη υποστηριζόμενη μορφή βίντεο"</string>
+    <string name="embedding_not_allowed" msgid="2276938012740817565">"Η ενσωμάτωση απενεργοποιήθηκε κατόπιν αιτήματος από τον κάτοχο περιεχομένου."</string>
+    <string name="video_infringes_copyright" msgid="405112542760824342">"Αυτό το βίντεο έχει παραβιάσει πνευματικά δικαιώματα"</string>
+    <string name="video_was_judged_inappropriate" msgid="3094939591548712295">"Αυτό το βίντεο κρίθηκε ανάρμοστο"</string>
+    <string name="duplicate_upload" msgid="4121037025019181231">"Το βίντεο απορρίφθηκε (διπλότυπη μεταφόρτωση)"</string>
+    <string name="video_violated_terms_of_use" msgid="5939015477990642511">"Αυτό το βίντεο παραβίασε τους όρους χρήσης"</string>
+    <string name="uploader_account_suspended" msgid="478921997329484038">"Ο λογαριασμός μεταφόρτωσης ανεστάλη"</string>
+    <string name="video_too_long" msgid="920962005485307212">"Το βίντεο είναι πολύ μεγάλο"</string>
+    <string name="blocked_by_content_owner" msgid="3409643252225778636">"Αποκλεισμός από τον κάτοχο περιεχομένου"</string>
+    <string name="video_not_available_in_your_country" msgid="2606970418922492683">"Το βίντεο δεν είναι διαθέσιμο στη χώρα σας"</string>
+    <string name="video_not_available_on_mobile" msgid="7967455158803415329">"Ο κάτοχος περιεχομένου δεν έχει διαθέσει ακόμα αυτό το βίντεο για κινητές συσκευές."</string>
+    <string name="video_is_private" msgid="4035365641729391026">"Αυτό το βίντεο είναι απόρρητο"</string>
+    <string name="video_couldnt_be_processed" msgid="1039701253687345063">"Δεν είναι δυνατή η μετατροπή αυτού του βίντεο"</string>
+    <string name="video_is_in_an_invalid_format" msgid="6468168866849783876">"Αυτό το βίντεο είναι σε μη έγκυρη μορφή αρχείο"</string>
+    <string name="video_uses_an_unsupported_codec" msgid="5031422885367214838">"Το βίντεο χρησιμοποιεί έναν μη υποστηριζόμενο κωδικοποιητή"</string>
+    <string name="video_is_empty" msgid="3140641145159105643">"Το βίντεο είναι κενό"</string>
+    <string name="video_is_too_small" msgid="6940775886744472544">"Το βίντεο είναι πολύ μικρό"</string>
+    <string name="adult_content_intro" msgid="4584417345075529875">"Το περιεχόμενο αυτού του βίντεο ενδέχεται να είναι ακατάλληλο για ορισμένους χρήστες, καθώς έχει επισημανθεί από την κοινότητα χρηστών του YouTube."</string>
+    <string name="adult_content_confirm_single_video" msgid="5310148582462951676">"Επιβεβαιώστε ότι θέλετε να το παρακολουθήσετε."</string>
+    <string name="adult_content_underage" msgid="5362752285669954500">"Λυπούμαστε, αλλά πρέπει να είστε 18 και άνω για να δείτε αυτό το βίντεο."</string>
+    <string name="event_video_rated" msgid="872838196913112744">"Ο χρήστης <xliff:g id="USERNAME">%1$s</xliff:g> αξιολόγησε"</string>
+    <string name="event_video_shared" msgid="5584437040368965149">"Ο χρήστης <xliff:g id="USERNAME">%1$s</xliff:g> μοιράστηκε"</string>
+    <string name="event_video_favorited" msgid="927594648101735146">"Ο χρήστης <xliff:g id="USERNAME">%1$s</xliff:g> πρόσθεσε στα αγαπημένα"</string>
+    <string name="event_video_commented" msgid="9186653372018056391">"Ο χρήστης <xliff:g id="USERNAME">%1$s</xliff:g> σχολίασε"</string>
+    <string name="event_video_uploaded" msgid="8057976670532000500">"Ο χρήστης <xliff:g id="USERNAME">%1$s</xliff:g> μεταφόρτωσε"</string>
+    <string name="event_video_added_to_playlist" msgid="7551840211732155658">"Ο χρήστης &lt;b&gt;<xliff:g id="USERNAME">%1$s</xliff:g>&lt;/b&gt; πρόσθεσε σε μια λίστα αναπαραγωγής"</string>
+    <string name="event_friend_added" msgid="7546667243222165309">"Ο χρήστης <xliff:g id="USERNAME">%1$s</xliff:g> έγινε φίλος με"</string>
+    <string name="event_user_subscription_added" msgid="91796276730839507">"Ο χρήστης <xliff:g id="USERNAME">%1$s</xliff:g> έγινε συνδρομητής στο"</string>
+    <string name="playlist_skipped_unavailable_videos" msgid="2936485500392428339">"Έγινε παράλειψη ενός ή περισσότερων βίντεο που δεν ήταν πλέον διαθέσιμα"</string>
+    <string name="autoplay_restriction" msgid="158389253268740063">"Απενεργ. αυτόμ. αναπαραγ. από κάτοχο περιεχομένου."</string>
+    <string name="ad_portrait" msgid="1358747127755966100">"Διαφήμιση <xliff:g id="REMAININGTIME">%1$s</xliff:g>"</string>
+    <string name="ad_landscape_title" msgid="3784037264960188995">"Διαφήμ.: <xliff:g id="VIDEO_TITLE">%1$s</xliff:g> »"</string>
+    <string name="ad_landscape_no_title" msgid="6353310680522992091">"Διαφήμιση"</string>
+    <string name="ad_learn_more" msgid="7679953743831880120">"Μάθετε περισσότερα »"</string>
+    <string name="skip_ad_in" msgid="6115543065029677545">"Μπορείτε να παραλ. τη διαφήμ. σε <xliff:g id="VALUE">%1$d</xliff:g> δευτ."</string>
+    <string name="skip_ad" msgid="2101576881589909777">"Παράκαμψη διαφήμ. »"</string>
+    <string name="ad_next_up" msgid="9052397347269182787">"Το επόμενο προς τα επάνω…"</string>
+    <string name="ad_remaining_time" msgid="3831978919678409371">"Διαφήμιση <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+  <plurals name="years_ago">
+    <item quantity="one" msgid="6011164943434808302">"Πριν από 1 χρόνο"</item>
+    <item quantity="other" msgid="7324060933851047369">"πριν από <xliff:g id="VALUE">%1$d</xliff:g> χρόνια"</item>
+  </plurals>
+  <plurals name="months_ago">
+    <item quantity="one" msgid="8251222113661446110">"Πριν από 1 μήνα"</item>
+    <item quantity="other" msgid="928004251516590089">"πριν από <xliff:g id="VALUE">%1$d</xliff:g> μήνες"</item>
+  </plurals>
+  <plurals name="weeks_ago">
+    <item quantity="one" msgid="8220753762287286497">"Πριν από 1 εβδομάδα"</item>
+    <item quantity="other" msgid="2091458284539717924">"πριν από <xliff:g id="VALUE">%1$d</xliff:g> εβδομ."</item>
+  </plurals>
+  <plurals name="days_ago">
+    <item quantity="one" msgid="4735281061933538352">"Πριν από 1 ημέρα"</item>
+    <item quantity="other" msgid="8783340047415572507">"πριν από <xliff:g id="VALUE">%1$d</xliff:g> ημέρες"</item>
+  </plurals>
+  <plurals name="hours_ago">
+    <item quantity="one" msgid="2033749590885801009">"Πριν από 1 ώρα"</item>
+    <item quantity="other" msgid="6461305084541029739">"πριν από <xliff:g id="VALUE">%1$d</xliff:g> ώρες"</item>
+  </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="one" msgid="5196995110076754587">"Πριν από 1 λεπτό"</item>
+    <item quantity="other" msgid="1667629255683993462">"πριν από <xliff:g id="VALUE">%1$d</xliff:g> λεπτά"</item>
+  </plurals>
+  <plurals name="seconds_ago">
+    <item quantity="one" msgid="5001191853871840989">"Πριν από 1 δευτερόλ."</item>
+    <item quantity="other" msgid="2961716134454596813">"πριν από <xliff:g id="VALUE">%1$d</xliff:g> δευτ."</item>
+  </plurals>
+  <plurals name="days_remaining">
+    <item quantity="one" msgid="6688672348263993459">"Λήγει σε 1 ημέρα"</item>
+    <item quantity="other" msgid="3445293740702296105">"Λήγει σε <xliff:g id="DAYS">%1$d</xliff:g> ημέρες"</item>
+  </plurals>
+  <plurals name="hours_remaining">
+    <item quantity="one" msgid="223247784598159171">"Λήγει σε 1 ώρα"</item>
+    <item quantity="other" msgid="3723393716802971786">"Λήγει σε <xliff:g id="HOURS">%1$d</xliff:g> ώρες"</item>
+  </plurals>
+    <string name="less_then_one_hour_remaining" msgid="3170843909663366351">"Λήγει σε λιγότερο από μία ώρα"</string>
+    <string name="about_to_expire" msgid="1138849960294296793">"Πρόκειται να λήξει"</string>
+    <string name="expired" msgid="4163617224776035785">"Έληξε"</string>
+    <string name="live_event_unavailable" msgid="3482822753939282549">"Μη διαθέσιμο"</string>
+    <string name="live_event_cant_replay" msgid="610249048947214821">"Δεν είναι πλέον διαθέσιμο"</string>
+    <string name="live_event_starts_at" msgid="6278413483327194253">"Αυτή η ζωντανή εκδ. ξεκινά <xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="live_started_when" msgid="893013096657434448">"Άρχισε <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_today_when" msgid="3614812749139425283">"Σήμερα <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_when" msgid="6122965173933332413">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="open_source_licenses_title" msgid="122604737063804870">"Άδειες λογισμικού ανοικτού κώδικα"</string>
+    <string name="open_source_licenses_description" msgid="1772312313191687173">"Λεπτομέρειες άδειας λογισμικού ανοιχτού κώδικα"</string>
+    <string name="accessibility_enter_fullscreen" msgid="2145998186071424023">"Πλήρης οθόνη"</string>
+    <string name="accessibility_exit_fullscreen" msgid="7379786446110918503">"Έξ. από πλήρη οθόνη"</string>
+    <string name="accessibility_closed_captions" msgid="8652785807213850219">"Εμφ. κλειστού μενού υπότιτλων"</string>
+    <string name="accessibility_play" msgid="1639109792960696807">"Αναπαραγωγή βίντεο"</string>
+    <string name="accessibility_pause" msgid="7571337388732623918">"Παύση βίντεο"</string>
+    <string name="accessibility_replay" msgid="4609928826261820283">"Επανάληψη του βίντεο"</string>
+    <string name="accessibility_hq" msgid="4879694023617718380">"Μετ.σε υψηλή ποιότ."</string>
+    <string name="accessibility_lq" msgid="4739539512111087659">"Μετ.σε χαμηλή ποιότ."</string>
+    <string name="accessibility_next" msgid="4162310692370592051">"Επόμενο βίντεο"</string>
+    <string name="accessibility_previous" msgid="4250268136510902573">"Προηγούμενο βίντεο"</string>
+    <string name="accessibility_show_options_menu" msgid="7554607793620721055">"Εμφάνιση μενού επιλογών"</string>
+    <string name="accessibility_play_in_youtube" msgid="3666001248855022228">"Αναπ. σε εφ. YouTube"</string>
+</resources>

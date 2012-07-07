@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2012 Google Inc. All Rights Reserved.
+
+author: wiktorgworek@google.com (Wiktor Gworek)
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:state_selected="true">
+    <layer-list>
+      <item android:drawable="@drawable/tv_controller_overlay_button_background"/>
+      <item>
+        <bitmap android:src="@drawable/ic_vidcontrol_fullscreen_on" android:gravity="center"/>
+      </item>
+    </layer-list>
+  </item>
+
+  <item>
+    <layer-list>
+      <item android:drawable="@drawable/tv_controller_overlay_button_background"/>
+      <item>
+        <bitmap android:src="@drawable/ic_vidcontrol_fullscreen_off" android:gravity="center"/>
+      </item>
+    </layer-list>
+  </item>
+
+</selector>

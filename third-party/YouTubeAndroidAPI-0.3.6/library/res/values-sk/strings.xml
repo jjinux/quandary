@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="results" msgid="3491858164798373513">"Výsledky"</string>
+    <string name="share_subject" msgid="4288655105936857100">"Pozrite si video „<xliff:g id="VIDEO_TITLE">%1$s</xliff:g>“ na YouTube"</string>
+    <string name="no_network" msgid="4034091614982104955">"Momentálne nie je k dispozícii sieťové pripojenie. Skúste to znova neskôr."</string>
+    <string name="send_video" msgid="1807054013787019321">"Zdieľať toto video pomocou"</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"Vyberte video, ktoré chcete odovzdať"</string>
+    <string name="warning_3d_bandwidth" msgid="8791840892348766650">"Videá vo formáte 3D používajú veľké množstvo údajov a najlepšie fungujú s pripojením k sieti Wi-Fi."</string>
+    <string name="error_network" msgid="6203606370875060882">"Vyskytol sa problém so sieťou."</string>
+    <string name="error_connection" msgid="2998095651459626987">"Pri pripojovaní k sieti sa vyskytol problém"</string>
+    <string name="error_http" msgid="5344829683089448616">"Vyskytol sa problém so sieťou. [<xliff:g id="HTTP_ERROR">%1$s</xliff:g>]"</string>
+    <string name="error_youtube_server_down" msgid="4707901657961236961">"Služba YouTube je dočasne nedostupná."</string>
+    <string name="error_response" msgid="1670518993171072015">"Pri spracovaní odpovede siete sa vyskytla chyba"</string>
+    <string name="error_response_invalid" msgid="170451687814499718">"Neplatný formát odpovede siete"</string>
+    <string name="error_dev_reg" msgid="4384345559801694025">"Pri spustení sa vyskytol problém. Skontrolujte sieťové pripojenie a systémový čas."</string>
+    <string name="error_authenticating" msgid="6511119385715669049">"Vyskytol sa problém s overením"</string>
+    <string name="error_no_linked_youtube_account" msgid="2109268361764786379">"Váš účet nie je prepojený s účtom YouTube."\n"Prihláste sa na www.youtube.com a prepojte svoje účty."</string>
+    <string name="error_forbidden_action" msgid="1023483961100814358">"Táto akcia nie je povolená"</string>
+    <string name="error_forbidden_list_access" msgid="1843695621827543473">"Tento zoznam sa nedá zobraziť"</string>
+    <string name="error_generic" msgid="8588391221420698561">"Vyskytla sa chyba"</string>
+    <string name="all_categories" msgid="7327269535754951429">"Všetky"</string>
+    <string name="live_category" msgid="1223570493160116614">"Naživo!"</string>
+    <string name="ok" msgid="4984722672564018307">"OK"</string>
+    <string name="cancel" msgid="2358776892905393697">"Zrušiť"</string>
+    <string name="confirm" msgid="466056620180183112">"Potvrdiť"</string>
+    <string name="retry" msgid="7580519258934142753">"Skúsiť znova"</string>
+    <string name="tap_to_retry" msgid="1298965456496484428">"Skúsiť znova"</string>
+    <string name="dont_show_again" msgid="786736649151662618">"Nabudúce túto správu nezobrazovať"</string>
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <string name="time_filter_today" msgid="4583546815410219284">"Dnes"</string>
+    <string name="time_filter_this_week" msgid="5813004703500752175">"Tento týždeň"</string>
+    <string name="time_filter_this_month" msgid="8210393087019089884">"Tento mesiac"</string>
+    <string name="time_filter_all_time" msgid="8122803103693352906">"Časovo neobmedzene"</string>
+    <string name="time_filter_next_24_hours" msgid="7491506657378680252">"Ďalších 24 hodín"</string>
+    <string name="time_filter_next_7_days" msgid="468996283535983949">"Ďalších 7 dní"</string>
+    <string name="statistic_filter_top_rated" msgid="2702452948496701340">"Najlepšie hodnotené"</string>
+    <string name="statistic_filter_top_favorited" msgid="1506517547757930229">"Najobľúbenejšie"</string>
+    <string name="statistic_filter_most_viewed" msgid="6481521188330569959">"Najsledovanejšie"</string>
+    <string name="statistic_filter_most_discussed" msgid="1683404206032595533">"Najdiskutovanejšie"</string>
+    <string name="flag_reason_porn" msgid="1094162325540923312">"Sexuálny obsah"</string>
+    <string name="flag_reason_violence" msgid="5567477933154420778">"Násilný nebo odpudivý obsah"</string>
+    <string name="flag_reason_hate" msgid="3745113319524776191">"Nenávistný alebo urážlivý obsah"</string>
+    <string name="flag_reason_dangerous" msgid="1466151556214304372">"Nebezpečné alebo škodu spôsobujúce činy"</string>
+    <string name="flag_reason_spam" msgid="1209550729002669241">"Spam"</string>
+    <string name="flag_reason_rights" msgid="326078918880879336">"Porušuje moje práva"</string>
+    <string name="subtitles" msgid="1977301636988723973">"Titulky"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"Vypnúť titulky"</string>
+    <string name="no_subtitles" msgid="4986303295142175942">"Pre toto video nie sú k dispozícii žiadne titulky"</string>
+    <string name="video_privacy_public" msgid="5579705185029422662">"Verejné"</string>
+    <string name="video_privacy_private" msgid="3678110889381442872">"Súkromné"</string>
+    <string name="video_privacy_unlisted" msgid="4283665089130353350">"Nezaradené"</string>
+    <string name="upload_finished_notification_title" msgid="764477179000129056">"Video bolo úspešne odovzdané"</string>
+    <string name="sharing_post_failed_single" msgid="3092260431038695250">"Pri zdieľaní v sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g> sa vyskytol problém."</string>
+    <string name="sharing_post_failed_multiple" msgid="6678904947228468528">"Problém pri zdieľ. v sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g> a iných soc. sieťach."</string>
+    <string name="sharing_post_success_single" msgid="1801875786347877139">"Zdieľané v sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_success_multiple" msgid="2069433591097081726">"Zdieľané v sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g> a ďalších sociálnych sieťach."</string>
+    <string name="accounts_title" msgid="4721231931148866782">"Prihlásiť sa"</string>
+    <string name="other_account" msgid="3937862708075932733">"Pridať účet"</string>
+    <string name="processing_video" msgid="6308541044349424386">"Toto video sa momentálne spracováva"</string>
+    <string name="try_again_later" msgid="4095675315043788941">"Môžete to skúsiť znova neskôr."</string>
+    <string name="video_was_deleted" msgid="2148175171179083323">"Toto video odstránil vlastník"</string>
+    <string name="video_not_available" msgid="6617902565535420195">"Toto video nie je k dispozícii"</string>
+    <string name="problem_while_playing" msgid="3053586955704601439">"Pri prehrávaní sa vyskytol problém"</string>
+    <string name="problem_while_playing_with_code" msgid="6842849126785729647">"Pri prehrávaní sa vyskytol problém [<xliff:g id="ERROR_CODE">%1$d</xliff:g>]"</string>
+    <string name="unable_to_connect" msgid="7975874433500032709">"K serveru sa nepodarilo pripojiť"</string>
+    <string name="connection_to_server_lost" msgid="5188941415746504351">"Pripojenie k serveru sa prerušilo"</string>
+    <string name="unsupported_video_format" msgid="6581610518792199244">"Nepodporovaný formát videa"</string>
+    <string name="embedding_not_allowed" msgid="2276938012740817565">"Vkladanie bolo zakázané na základe žiadosti vlastníka obsahu."</string>
+    <string name="video_infringes_copyright" msgid="405112542760824342">"Toto video porušovalo autorské práva"</string>
+    <string name="video_was_judged_inappropriate" msgid="3094939591548712295">"Toto video bolo posúdené ako nevhodné"</string>
+    <string name="duplicate_upload" msgid="4121037025019181231">"Zamietnuté video (duplicitné odovzdanie)"</string>
+    <string name="video_violated_terms_of_use" msgid="5939015477990642511">"Toto video porušovalo zmluvné podmienky"</string>
+    <string name="uploader_account_suspended" msgid="478921997329484038">"Účet pôvodcu videa bol pozastavený"</string>
+    <string name="video_too_long" msgid="920962005485307212">"Toto video je príliš dlhé"</string>
+    <string name="blocked_by_content_owner" msgid="3409643252225778636">"Zablokované vlastníkom obsahu"</string>
+    <string name="video_not_available_in_your_country" msgid="2606970418922492683">"Nie je k dispozícii vo vašej krajine"</string>
+    <string name="video_not_available_on_mobile" msgid="7967455158803415329">"Vlastník obsahu nesprístupnil toto video pre mobily"</string>
+    <string name="video_is_private" msgid="4035365641729391026">"Toto video je súkromné"</string>
+    <string name="video_couldnt_be_processed" msgid="1039701253687345063">"Toto video nie je možné skonvertovať"</string>
+    <string name="video_is_in_an_invalid_format" msgid="6468168866849783876">"Formát súboru videa je neplatný"</string>
+    <string name="video_uses_an_unsupported_codec" msgid="5031422885367214838">"Toto video používa nepodporovaný kodek"</string>
+    <string name="video_is_empty" msgid="3140641145159105643">"Toto video je prázdne"</string>
+    <string name="video_is_too_small" msgid="6940775886744472544">"Toto video je príliš malé"</string>
+    <string name="adult_content_intro" msgid="4584417345075529875">"Komunita používateľov YouTube nahlásila, že súčasťou tohto videa môže byť obsah, ktorý je pre niektorých používateľov nevhodný."</string>
+    <string name="adult_content_confirm_single_video" msgid="5310148582462951676">"Potvrďte, že si video chcete prezrieť."</string>
+    <string name="adult_content_underage" msgid="5362752285669954500">"Ľutujeme, ak chcete prehrať toto video, musíte mať 18 a viac rokov."</string>
+    <string name="event_video_rated" msgid="872838196913112744">"Používateľ <xliff:g id="USERNAME">%1$s</xliff:g> ohodnotil video"</string>
+    <string name="event_video_shared" msgid="5584437040368965149">"Používateľ <xliff:g id="USERNAME">%1$s</xliff:g> zdieľal video"</string>
+    <string name="event_video_favorited" msgid="927594648101735146">"Zaradené medzi obľúbené používateľa <xliff:g id="USERNAME">%1$s</xliff:g>"</string>
+    <string name="event_video_commented" msgid="9186653372018056391">"Používateľ <xliff:g id="USERNAME">%1$s</xliff:g> pridal komentár"</string>
+    <string name="event_video_uploaded" msgid="8057976670532000500">"Používateľ <xliff:g id="USERNAME">%1$s</xliff:g> odovzdal video"</string>
+    <string name="event_video_added_to_playlist" msgid="7551840211732155658">"Pridané do zoznamu videí: &lt;b&gt;<xliff:g id="USERNAME">%1$s</xliff:g>&lt;/b&gt;"</string>
+    <string name="event_friend_added" msgid="7546667243222165309">"Používateľ <xliff:g id="USERNAME">%1$s</xliff:g> sa stal priateľom používateľa"</string>
+    <string name="event_user_subscription_added" msgid="91796276730839507">"Používateľ <xliff:g id="USERNAME">%1$s</xliff:g> odoberá"</string>
+    <string name="playlist_skipped_unavailable_videos" msgid="2936485500392428339">"Bolo preskočené jedno alebo viacero videí, ktoré nie sú k dispozícií"</string>
+    <string name="autoplay_restriction" msgid="158389253268740063">"Automatické prehrávanie zakázal vlastník obsahu."</string>
+    <string name="ad_portrait" msgid="1358747127755966100">"Reklama <xliff:g id="REMAININGTIME">%1$s</xliff:g>"</string>
+    <string name="ad_landscape_title" msgid="3784037264960188995">"Reklama: <xliff:g id="VIDEO_TITLE">%1$s</xliff:g> »"</string>
+    <string name="ad_landscape_no_title" msgid="6353310680522992091">"Reklama"</string>
+    <string name="ad_learn_more" msgid="7679953743831880120">"Viac informácií »"</string>
+    <string name="skip_ad_in" msgid="6115543065029677545">"Túto reklamu môžete preskočiť o <xliff:g id="VALUE">%1$d</xliff:g> sek."</string>
+    <string name="skip_ad" msgid="2101576881589909777">"Preskočiť reklamu »"</string>
+    <string name="ad_next_up" msgid="9052397347269182787">"Ďalšie na rade..."</string>
+    <string name="ad_remaining_time" msgid="3831978919678409371">"Reklama <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+  <plurals name="years_ago">
+    <item quantity="one" msgid="6011164943434808302">"Pred 1 rokom"</item>
+    <item quantity="other" msgid="7324060933851047369">"pred <xliff:g id="VALUE">%1$d</xliff:g> rokmi"</item>
+  </plurals>
+  <plurals name="months_ago">
+    <item quantity="one" msgid="8251222113661446110">"Pred 1 mesiacom"</item>
+    <item quantity="other" msgid="928004251516590089">"pred <xliff:g id="VALUE">%1$d</xliff:g> mesiacmi"</item>
+  </plurals>
+  <plurals name="weeks_ago">
+    <item quantity="one" msgid="8220753762287286497">"Pred 1 týždňom"</item>
+    <item quantity="other" msgid="2091458284539717924">"pred <xliff:g id="VALUE">%1$d</xliff:g> týždňami"</item>
+  </plurals>
+  <plurals name="days_ago">
+    <item quantity="one" msgid="4735281061933538352">"Pred 1 dňom"</item>
+    <item quantity="other" msgid="8783340047415572507">"pred <xliff:g id="VALUE">%1$d</xliff:g> dňami"</item>
+  </plurals>
+  <plurals name="hours_ago">
+    <item quantity="one" msgid="2033749590885801009">"Pred 1 hodinou"</item>
+    <item quantity="other" msgid="6461305084541029739">"pred <xliff:g id="VALUE">%1$d</xliff:g> hodinami"</item>
+  </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="one" msgid="5196995110076754587">"Pred 1 minútou"</item>
+    <item quantity="other" msgid="1667629255683993462">"Pred <xliff:g id="VALUE">%1$d</xliff:g> minútami"</item>
+  </plurals>
+  <plurals name="seconds_ago">
+    <item quantity="one" msgid="5001191853871840989">"Pred 1 sekundou"</item>
+    <item quantity="other" msgid="2961716134454596813">"pred <xliff:g id="VALUE">%1$d</xliff:g> sekundami"</item>
+  </plurals>
+  <plurals name="days_remaining">
+    <item quantity="one" msgid="6688672348263993459">"Plat. vyprší o 1 deň"</item>
+    <item quantity="other" msgid="3445293740702296105">"Vyprší o: <xliff:g id="DAYS">%1$d</xliff:g> d."</item>
+  </plurals>
+  <plurals name="hours_remaining">
+    <item quantity="one" msgid="223247784598159171">"Plat. vyprší o 1 hod."</item>
+    <item quantity="other" msgid="3723393716802971786">"Vyprší o: <xliff:g id="HOURS">%1$d</xliff:g> hod."</item>
+  </plurals>
+    <string name="less_then_one_hour_remaining" msgid="3170843909663366351">"Platnosť vyprší o menej ako hodinu"</string>
+    <string name="about_to_expire" msgid="1138849960294296793">"Plat. vyprší čoskoro"</string>
+    <string name="expired" msgid="4163617224776035785">"S vypršanou platnosťou"</string>
+    <string name="live_event_unavailable" msgid="3482822753939282549">"Nie je k dispozícii"</string>
+    <string name="live_event_cant_replay" msgid="610249048947214821">"Už nie je k dispozícii"</string>
+    <string name="live_event_starts_at" msgid="6278413483327194253">"Toto vysielanie naživo začne o <xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="live_started_when" msgid="893013096657434448">"Začalo <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_today_when" msgid="3614812749139425283">"Dnes o <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_when" msgid="6122965173933332413">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="open_source_licenses_title" msgid="122604737063804870">"Licencie otvoreného zdroja"</string>
+    <string name="open_source_licenses_description" msgid="1772312313191687173">"Podrobnosti o licencii pre softvér s otvoreným zdrojom"</string>
+    <string name="accessibility_enter_fullscreen" msgid="2145998186071424023">"Prejsť do režimu na celú obrazovku"</string>
+    <string name="accessibility_exit_fullscreen" msgid="7379786446110918503">"Ukončiť režim na celú obrazovku"</string>
+    <string name="accessibility_closed_captions" msgid="8652785807213850219">"Zobr. ponuku skrytých titulkov"</string>
+    <string name="accessibility_play" msgid="1639109792960696807">"Prehrať video"</string>
+    <string name="accessibility_pause" msgid="7571337388732623918">"Pozastaviť video"</string>
+    <string name="accessibility_replay" msgid="4609928826261820283">"Znova spustiť video"</string>
+    <string name="accessibility_hq" msgid="4879694023617718380">"Prepnúť na vysokú kvalitu"</string>
+    <string name="accessibility_lq" msgid="4739539512111087659">"Prepnúť na nízku kvalitu"</string>
+    <string name="accessibility_next" msgid="4162310692370592051">"Ďalšie video"</string>
+    <string name="accessibility_previous" msgid="4250268136510902573">"Predchádzajúce video"</string>
+    <string name="accessibility_show_options_menu" msgid="7554607793620721055">"Zobraziť ponuku s možnosťami"</string>
+    <string name="accessibility_play_in_youtube" msgid="3666001248855022228">"Prehrať v apl. YouTube"</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2011 Google Inc. All Rights Reserved.
+
+TODO(olly): GData should translate genre strings for us. See http://b/issue?id=3234538.
+            When this is implemented, remove this file and use GData directly.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- Genres that apply to both movies and shows -->
+
+  <!-- The action & adventure genre for a movie or show. [CHAR LIMIT=30] -->
+  <string name="genre_action_and_adventure" translatable="false">Action</string>
+  <!-- The animation & cartoons genre for a movie or show. [CHAR LIMIT=30] -->
+  <string name="genre_animation_and_cartoons" translatable="false">Animation</string>
+  <!-- The comedy genre for a movie or show. [CHAR LIMIT=30] -->
+  <string name="genre_comedy" translatable="false">Comedy</string>
+  <!-- The drama genre for a movie or show. [CHAR LIMIT=30] -->
+  <string name="genre_drama" translatable="false">Drama</string>
+  <!-- The sports genre for a movie or show. [CHAR LIMIT=30] -->
+  <string name="genre_sports" translatable="false">Sports</string>
+  <!-- The documentary & biography genre for a movie or show. [CHAR LIMIT=30] -->
+  <string name="genre_documentary_and_biography" translatable="false">Documentary</string>
+
+  <!-- Genres that apply only to movies -->
+
+  <!-- The science fiction genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_science_fiction" translatable="false">Science Fiction</string>
+  <!-- The classics genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_classics" translatable="false">Classics</string>
+  <!-- The crime genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_crime" translatable="false">Crime</string>
+  <!-- The family genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_family" translatable="false">Family</string>
+  <!-- The foreign genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_foreign" translatable="false">Foreign</string>
+  <!-- The horror genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_horror" translatable="false">Horror</string>
+  <!-- The mystery & suspense genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_mystery_and_suspense" translatable="false">Mystery &amp; Suspense</string>
+  <!-- The romance genre for a movie. [CHAR LIMIT=30] -->
+  <string name="genre_romance" translatable="false">Romance</string>
+
+  <!-- Genres that apply only to shows -->
+
+  <!-- The classic TV genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_classic_tv" translatable="false">Classic TV</string>
+  <!-- The home & garden TV genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_home_and_garden" translatable="false">Home &amp; Garden</string>
+  <!-- The news genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_news" translatable="false">News</string>
+  <!-- The reality & games genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_reality_and_games" translatable="false">Reality &amp; Games</string>
+  <!-- The science and technology genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_science_and_technology" translatable="false">Science &amp; Technology</string>
+  <!-- The soap genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_soaps" translatable="false">Soaps</string>
+  <!-- The travel genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_travel" translatable="false">Travel</string>
+  <!-- The web originals genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_web_originals" translatable="false">Web Originals</string>
+  <!-- The celebrity & entertainment genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_celebrity_and_entertainment" translatable="false">Entertainment</string>
+  <!-- The nature genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_nature" translatable="false">Nature</string>
+  <!-- The beauty & fashion genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_beauty_and_fashion" translatable="false">Beauty &amp; Fashion</string>
+  <!-- The food genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_food" translatable="false">Food</string>
+  <!-- The gaming genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_gaming" translatable="false">Gaming</string>
+  <!-- The health and fitness genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_health_and_fitness" translatable="false">Health &amp; Fitness</string>
+  <!-- The learning & education genre for a show. [CHAR LIMIT=30] -->
+  <string name="genre_learning_and_education" translatable="false">Learning &amp; Education</string>
+
+</resources>

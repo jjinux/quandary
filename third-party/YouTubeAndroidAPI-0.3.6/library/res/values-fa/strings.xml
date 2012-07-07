@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="results" msgid="3491858164798373513">"نتایج"</string>
+    <string name="share_subject" msgid="4288655105936857100">"\"<xliff:g id="VIDEO_TITLE">%1$s</xliff:g>\" را در YouTube مشاهده کنید"</string>
+    <string name="no_network" msgid="4034091614982104955">"در حال حاضر هیچ اتصال شبکه ای موجود نیست. لطفاً بعداً دوباره امتحان کنید."</string>
+    <string name="send_video" msgid="1807054013787019321">"اشتراک گذاری این ویدیو از طریق"</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"انتخاب ویدیو برای آپلود"</string>
+    <string name="warning_3d_bandwidth" msgid="8791840892348766650">"ویدیوهای با قالب سه بعدی مقدار زیادی داده مصرف می کنند و با اتصال WiFi بهتر کار می کنند"</string>
+    <string name="error_network" msgid="6203606370875060882">"مشکلی در شبکه روی داد"</string>
+    <string name="error_connection" msgid="2998095651459626987">"در اتصال به شبکه خطایی روی داد"</string>
+    <string name="error_http" msgid="5344829683089448616">"مشکلی در [<xliff:g id="HTTP_ERROR">%1$s</xliff:g>] شبکه روی داد"</string>
+    <string name="error_youtube_server_down" msgid="4707901657961236961">"YouTube موقتاً در دسترس نیست."</string>
+    <string name="error_response" msgid="1670518993171072015">"در پاسخ شبکه مشکلی روی داد"</string>
+    <string name="error_response_invalid" msgid="170451687814499718">"قالب پاسخ شبکه نامعتبر است"</string>
+    <string name="error_dev_reg" msgid="4384345559801694025">"در راه اندازی مشکلی روی داد. لطفاً اتصال شبکه و زمان سیستم خود را بررسی کنید."</string>
+    <string name="error_authenticating" msgid="6511119385715669049">"در تأیید اعتبار مشکلی روی داد"</string>
+    <string name="error_no_linked_youtube_account" msgid="2109268361764786379">"حساب شما به حساب YouTube مرتبط نیست. "\n"لطفاً برای مرتبط سازی حساب های خود، به www.youtube.com وارد شوید."</string>
+    <string name="error_forbidden_action" msgid="1023483961100814358">"این عملکرد مجاز نیست"</string>
+    <string name="error_forbidden_list_access" msgid="1843695621827543473">"این لیست قابل مشاهده نیست"</string>
+    <string name="error_generic" msgid="8588391221420698561">"خطایی روی داد"</string>
+    <string name="all_categories" msgid="7327269535754951429">"همه"</string>
+    <string name="live_category" msgid="1223570493160116614">"زنده!"</string>
+    <string name="ok" msgid="4984722672564018307">"تأیید"</string>
+    <string name="cancel" msgid="2358776892905393697">"لغو"</string>
+    <string name="confirm" msgid="466056620180183112">"تأیید"</string>
+    <string name="retry" msgid="7580519258934142753">"امتحان مجدد"</string>
+    <string name="tap_to_retry" msgid="1298965456496484428">"لمس برای سعی مجدد"</string>
+    <string name="dont_show_again" msgid="786736649151662618">"مجدداً نشان داده نشود"</string>
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <string name="time_filter_today" msgid="4583546815410219284">"امروز"</string>
+    <string name="time_filter_this_week" msgid="5813004703500752175">"این هفته"</string>
+    <string name="time_filter_this_month" msgid="8210393087019089884">"این ماه"</string>
+    <string name="time_filter_all_time" msgid="8122803103693352906">"همه زمان ها"</string>
+    <string name="time_filter_next_24_hours" msgid="7491506657378680252">"24 ساعت بعدی"</string>
+    <string name="time_filter_next_7_days" msgid="468996283535983949">"7 روز بعدی"</string>
+    <string name="statistic_filter_top_rated" msgid="2702452948496701340">"رتبه‌های برتر"</string>
+    <string name="statistic_filter_top_favorited" msgid="1506517547757930229">"موارد دلخواه برتر"</string>
+    <string name="statistic_filter_most_viewed" msgid="6481521188330569959">"بیشتر بازدید شده"</string>
+    <string name="statistic_filter_most_discussed" msgid="1683404206032595533">"موارد بیشتر بحث شده"</string>
+    <string name="flag_reason_porn" msgid="1094162325540923312">"محتوای جنسی"</string>
+    <string name="flag_reason_violence" msgid="5567477933154420778">"محتوای زننده یا خشونت آمیز"</string>
+    <string name="flag_reason_hate" msgid="3745113319524776191">"محتوای توهین‌آمیز یا مشوق تنفر"</string>
+    <string name="flag_reason_dangerous" msgid="1466151556214304372">"عملکردهای خطرناک و مضر"</string>
+    <string name="flag_reason_spam" msgid="1209550729002669241">"هرزنامه"</string>
+    <string name="flag_reason_rights" msgid="326078918880879336">"حقوق من را نقض می‌کند"</string>
+    <string name="subtitles" msgid="1977301636988723973">"زیرنویس ها"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"خاموش کردن زیرنویس ها"</string>
+    <string name="no_subtitles" msgid="4986303295142175942">"شرحی برای این ویدیو موجود نیست"</string>
+    <string name="video_privacy_public" msgid="5579705185029422662">"عمومی"</string>
+    <string name="video_privacy_private" msgid="3678110889381442872">"خصوصی"</string>
+    <string name="video_privacy_unlisted" msgid="4283665089130353350">"لیست بندی نشده"</string>
+    <string name="upload_finished_notification_title" msgid="764477179000129056">"ویدیو با موفقیت آپلود شد"</string>
+    <string name="sharing_post_failed_single" msgid="3092260431038695250">"در اشتراک‌گذاری در <xliff:g id="NETWORK_NAME">%1$s</xliff:g> مشکلی روی داد."</string>
+    <string name="sharing_post_failed_multiple" msgid="6678904947228468528">"در اشتراک‌گذاری در <xliff:g id="NETWORK_NAME">%1$s</xliff:g> و سایر شبکه‌های اجتماعی مشکلی روی داد."</string>
+    <string name="sharing_post_success_single" msgid="1801875786347877139">"در <xliff:g id="NETWORK_NAME">%1$s</xliff:g> اشتراک‌گذاری شد."</string>
+    <string name="sharing_post_success_multiple" msgid="2069433591097081726">"در <xliff:g id="NETWORK_NAME">%1$s</xliff:g> و سایر شبکه‌های اجتماعی اشتراک‌گذاری شد."</string>
+    <string name="accounts_title" msgid="4721231931148866782">"ورود به سیستم"</string>
+    <string name="other_account" msgid="3937862708075932733">"افزودن حساب"</string>
+    <string name="processing_video" msgid="6308541044349424386">"این ویدیو در حال پردازش است"</string>
+    <string name="try_again_later" msgid="4095675315043788941">"می‌توانید بعداً دوباره امتحان کنید."</string>
+    <string name="video_was_deleted" msgid="2148175171179083323">"این ویدیو توسط مالک حذف شد"</string>
+    <string name="video_not_available" msgid="6617902565535420195">"این ویدیو موجود نیست"</string>
+    <string name="problem_while_playing" msgid="3053586955704601439">"مشکلی هنگام پخش وجود داشت"</string>
+    <string name="problem_while_playing_with_code" msgid="6842849126785729647">"هنگام بازی مشکلی روی داد [<xliff:g id="ERROR_CODE">%1$d</xliff:g>]"</string>
+    <string name="unable_to_connect" msgid="7975874433500032709">"اتصال به سرور امکان پذیر نیست"</string>
+    <string name="connection_to_server_lost" msgid="5188941415746504351">"اتصال به سرور قطع شد"</string>
+    <string name="unsupported_video_format" msgid="6581610518792199244">"فرمت ویدیویی پشتیبانی نشده"</string>
+    <string name="embedding_not_allowed" msgid="2276938012740817565">"طبق درخواست مالک محتوا٬ جاسازی غیرفعال شد."</string>
+    <string name="video_infringes_copyright" msgid="405112542760824342">"این ویدیو حقوق نسخه برداری را نقض کرده است"</string>
+    <string name="video_was_judged_inappropriate" msgid="3094939591548712295">"این ویدیو بعنوان نامناسب تشخیص داده شد"</string>
+    <string name="duplicate_upload" msgid="4121037025019181231">"این ویدیو رد شد (آپلود تکراری)"</string>
+    <string name="video_violated_terms_of_use" msgid="5939015477990642511">"این ویدیو شرایط استفاده را نقض کرد"</string>
+    <string name="uploader_account_suspended" msgid="478921997329484038">"حساب آپلود کننده به حالت تعلیق در آمده است"</string>
+    <string name="video_too_long" msgid="920962005485307212">"این ویدیو بسیار طولانی است"</string>
+    <string name="blocked_by_content_owner" msgid="3409643252225778636">"توسط مالک محتوا مسدود شده است"</string>
+    <string name="video_not_available_in_your_country" msgid="2606970418922492683">"در کشور شما در دسترس نیست"</string>
+    <string name="video_not_available_on_mobile" msgid="7967455158803415329">"مالک این محتوا دیدن آن را بر روی تلفن همراه مجاز ندانسته است"</string>
+    <string name="video_is_private" msgid="4035365641729391026">"این ویدیو خصوصی است"</string>
+    <string name="video_couldnt_be_processed" msgid="1039701253687345063">"این ویدیو را نمی توان تبدیل کرد"</string>
+    <string name="video_is_in_an_invalid_format" msgid="6468168866849783876">"این ویدیو دارای یک قالب فایل نامعتبر است"</string>
+    <string name="video_uses_an_unsupported_codec" msgid="5031422885367214838">"این ویدیو از یک کدک پشتیبانی نشده استفاده می کند"</string>
+    <string name="video_is_empty" msgid="3140641145159105643">"این ویدیو خالی است"</string>
+    <string name="video_is_too_small" msgid="6940775886744472544">"این ویدیو بسیار کوچک است"</string>
+    <string name="adult_content_intro" msgid="4584417345075529875">"این ویدیو ممکن است حاوی محتوایی باشد که برای برخی از کاربران نامناسب است، زیرا توسط انجمن کاربران YouTube پرچم‌گذاری شده‌ است."</string>
+    <string name="adult_content_confirm_single_video" msgid="5310148582462951676">"لطفا تأیید کنید که می‌خواهید آن را تماشا کنید."</string>
+    <string name="adult_content_underage" msgid="5362752285669954500">"متأسفیم برای مشاهده این ویدیو شما باید 18 سال یا بیشتر داشته باشید."</string>
+    <string name="event_video_rated" msgid="872838196913112744">"<xliff:g id="USERNAME">%1$s</xliff:g> رتبه‌بندی کرد"</string>
+    <string name="event_video_shared" msgid="5584437040368965149">"<xliff:g id="USERNAME">%1$s</xliff:g> به اشتراک گذاشت"</string>
+    <string name="event_video_favorited" msgid="927594648101735146">"<xliff:g id="USERNAME">%1$s</xliff:g> به عنوان مورد دلخواه انتخاب کرد"</string>
+    <string name="event_video_commented" msgid="9186653372018056391">"<xliff:g id="USERNAME">%1$s</xliff:g> نظر داد"</string>
+    <string name="event_video_uploaded" msgid="8057976670532000500">"<xliff:g id="USERNAME">%1$s</xliff:g> آپلود شد"</string>
+    <string name="event_video_added_to_playlist" msgid="7551840211732155658">"&lt;b&gt;<xliff:g id="USERNAME">%1$s</xliff:g>&lt;/b&gt; به یک لیست پخش اضافه کرد"</string>
+    <string name="event_friend_added" msgid="7546667243222165309">"<xliff:g id="USERNAME">%1$s</xliff:g> دوست شد با"</string>
+    <string name="event_user_subscription_added" msgid="91796276730839507">"<xliff:g id="USERNAME">%1$s</xliff:g> مشترک شد در"</string>
+    <string name="playlist_skipped_unavailable_videos" msgid="2936485500392428339">"از یک یا چند ویدیو که در دسترس نبودند رد شد"</string>
+    <string name="autoplay_restriction" msgid="158389253268740063">"پخش خودکار توسط مالک محتوا غیرفعال شده است."</string>
+    <string name="ad_portrait" msgid="1358747127755966100">"آگهی <xliff:g id="REMAININGTIME">%1$s</xliff:g>"</string>
+    <string name="ad_landscape_title" msgid="3784037264960188995">"آگهی: <xliff:g id="VIDEO_TITLE">%1$s</xliff:g> »"</string>
+    <string name="ad_landscape_no_title" msgid="6353310680522992091">"تبلیغات"</string>
+    <string name="ad_learn_more" msgid="7679953743831880120">"بیشتر بیاموزید »"</string>
+    <string name="skip_ad_in" msgid="6115543065029677545">"پس از <xliff:g id="VALUE">%1$d</xliff:g> ثانیه میتوانید از این تبلیغ رد شوید"</string>
+    <string name="skip_ad" msgid="2101576881589909777">"رد شدن از آگهی »"</string>
+    <string name="ad_next_up" msgid="9052397347269182787">"مورد بعدی…"</string>
+    <string name="ad_remaining_time" msgid="3831978919678409371">"<xliff:g id="VALUE">%1$s</xliff:g> تبلیغ"</string>
+  <plurals name="years_ago">
+    <item quantity="one" msgid="6011164943434808302">"1 سال قبل"</item>
+    <item quantity="other" msgid="7324060933851047369">"<xliff:g id="VALUE">%1$d</xliff:g> سال قبل"</item>
+  </plurals>
+  <plurals name="months_ago">
+    <item quantity="one" msgid="8251222113661446110">"1 ماه قبل"</item>
+    <item quantity="other" msgid="928004251516590089">"<xliff:g id="VALUE">%1$d</xliff:g> ماه قبل"</item>
+  </plurals>
+  <plurals name="weeks_ago">
+    <item quantity="one" msgid="8220753762287286497">"1 هفته قبل"</item>
+    <item quantity="other" msgid="2091458284539717924">"<xliff:g id="VALUE">%1$d</xliff:g> هفته قبل"</item>
+  </plurals>
+  <plurals name="days_ago">
+    <item quantity="one" msgid="4735281061933538352">"1 روز قبل"</item>
+    <item quantity="other" msgid="8783340047415572507">"<xliff:g id="VALUE">%1$d</xliff:g> روز قبل"</item>
+  </plurals>
+  <plurals name="hours_ago">
+    <item quantity="one" msgid="2033749590885801009">"1 ساعت قبل"</item>
+    <item quantity="other" msgid="6461305084541029739">"<xliff:g id="VALUE">%1$d</xliff:g> ساعت قبل"</item>
+  </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="one" msgid="5196995110076754587">"1 دقیقه قبل"</item>
+    <item quantity="other" msgid="1667629255683993462">"<xliff:g id="VALUE">%1$d</xliff:g> دقیقه قبل"</item>
+  </plurals>
+  <plurals name="seconds_ago">
+    <item quantity="one" msgid="5001191853871840989">"1 ثانیه قبل"</item>
+    <item quantity="other" msgid="2961716134454596813">"<xliff:g id="VALUE">%1$d</xliff:g> ثانیه قبل"</item>
+  </plurals>
+  <plurals name="days_remaining">
+    <item quantity="one" msgid="6688672348263993459">"پس از 1 روز منقضی می شود"</item>
+    <item quantity="other" msgid="3445293740702296105">"<xliff:g id="DAYS">%1$d</xliff:g> روز دیگر منقضی می شود"</item>
+  </plurals>
+  <plurals name="hours_remaining">
+    <item quantity="one" msgid="223247784598159171">"پس از 1 ساعت منقضی می شود"</item>
+    <item quantity="other" msgid="3723393716802971786">"<xliff:g id="HOURS">%1$d</xliff:g> ساعت دیگر منقضی می شود"</item>
+  </plurals>
+    <string name="less_then_one_hour_remaining" msgid="3170843909663366351">"در کمتر از یک ساعت منقضی می شود"</string>
+    <string name="about_to_expire" msgid="1138849960294296793">"در حال منقضی شدن"</string>
+    <string name="expired" msgid="4163617224776035785">"منقضی شده"</string>
+    <string name="live_event_unavailable" msgid="3482822753939282549">"در دسترس نیست"</string>
+    <string name="live_event_cant_replay" msgid="610249048947214821">"دیگر در دسترس نیست"</string>
+    <string name="live_event_starts_at" msgid="6278413483327194253">"این رویداد زنده در <xliff:g id="TIME">%1$s</xliff:g> آغاز خواهد شد"</string>
+    <string name="live_started_when" msgid="893013096657434448">"آغاز در <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_today_when" msgid="3614812749139425283">"امروز در <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_when" msgid="6122965173933332413">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="open_source_licenses_title" msgid="122604737063804870">"مجوزهای منبع باز"</string>
+    <string name="open_source_licenses_description" msgid="1772312313191687173">"جزئیات مجوز برای نرم‌افزار منبع باز"</string>
+    <string name="accessibility_enter_fullscreen" msgid="2145998186071424023">"ورود به تمام صفحه"</string>
+    <string name="accessibility_exit_fullscreen" msgid="7379786446110918503">"خروج از تمام صفحه"</string>
+    <string name="accessibility_closed_captions" msgid="8652785807213850219">"نمایش منوی شرح‌های بسته"</string>
+    <string name="accessibility_play" msgid="1639109792960696807">"پخش ویدیو"</string>
+    <string name="accessibility_pause" msgid="7571337388732623918">"مکث ویدیو"</string>
+    <string name="accessibility_replay" msgid="4609928826261820283">"بازپخش ویدیو"</string>
+    <string name="accessibility_hq" msgid="4879694023617718380">"تغییر به کیفیت بالا"</string>
+    <string name="accessibility_lq" msgid="4739539512111087659">"تغییر به کیفیت پایین"</string>
+    <string name="accessibility_next" msgid="4162310692370592051">"ویدیوی بعدی"</string>
+    <string name="accessibility_previous" msgid="4250268136510902573">"ویدیوی قبلی"</string>
+    <string name="accessibility_show_options_menu" msgid="7554607793620721055">"نمایش منوی گزینه‌ها"</string>
+    <string name="accessibility_play_in_youtube" msgid="3666001248855022228">"پخش در برنامه YouTube"</string>
+</resources>

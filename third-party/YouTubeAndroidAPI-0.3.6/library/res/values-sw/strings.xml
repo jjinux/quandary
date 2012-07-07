@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="results" msgid="3491858164798373513">"Matokeo"</string>
+    <string name="share_subject" msgid="4288655105936857100">"Tazama kwenye \"<xliff:g id="VIDEO_TITLE">%1$s</xliff:g>\"  YouTube"</string>
+    <string name="no_network" msgid="4034091614982104955">"Hakuna muunganisho wa mtandao sasa hivi. Tafadhali jaribu tena baadaye."</string>
+    <string name="send_video" msgid="1807054013787019321">"Shiriki video hii kupitia"</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"Chagua video ya kupakia"</string>
+    <string name="warning_3d_bandwidth" msgid="8791840892348766650">"Fomati 3D ya video hutumia data nyingi zaidi na hufanya kazi  bora zaidi kwenye muunganisho wa Mtandao hewa"</string>
+    <string name="error_network" msgid="6203606370875060882">"Kulikuwa na tatizo la mtandao"</string>
+    <string name="error_connection" msgid="2998095651459626987">"Kulikuwa na tatizo la kuunganisha kwa mtandao"</string>
+    <string name="error_http" msgid="5344829683089448616">"Kulikuwa na tatizo la mtandao<xliff:g id="HTTP_ERROR">%1$s</xliff:g>"</string>
+    <string name="error_youtube_server_down" msgid="4707901657961236961">"YouTube haipatikani kwa sasa."</string>
+    <string name="error_response" msgid="1670518993171072015">"Kulikuwa na tatizo la mwitikio wa mtandao"</string>
+    <string name="error_response_invalid" msgid="170451687814499718">"Fomati batili ya majibu ya mtandao"</string>
+    <string name="error_dev_reg" msgid="4384345559801694025">"Kulikuwa na tatizo la kuanza. tafadhali angalia muunganisho wa mtandao wako na saa ya mfumo."</string>
+    <string name="error_authenticating" msgid="6511119385715669049">"Kulikuwa na tatizo la uhalalishaji"</string>
+    <string name="error_no_linked_youtube_account" msgid="2109268361764786379">"Akaunti yako haijaunganishwa kwa akaunti ya YouTube. "\n" Tafadhali ingia katika  www.youtube.com ili kuunganisha akaunti zako."</string>
+    <string name="error_forbidden_action" msgid="1023483961100814358">"Kitendo hiki hakiruhusiwi"</string>
+    <string name="error_forbidden_list_access" msgid="1843695621827543473">"Orodha hii haiwezi kuonyeshwa"</string>
+    <string name="error_generic" msgid="8588391221420698561">"Hitilafu imetokea"</string>
+    <string name="all_categories" msgid="7327269535754951429">"Zote"</string>
+    <string name="live_category" msgid="1223570493160116614">"Moja kwa Moja!"</string>
+    <string name="ok" msgid="4984722672564018307">"Sawa"</string>
+    <string name="cancel" msgid="2358776892905393697">"Ghairi"</string>
+    <string name="confirm" msgid="466056620180183112">"Thibitisha"</string>
+    <string name="retry" msgid="7580519258934142753">"Jaribu tena"</string>
+    <string name="tap_to_retry" msgid="1298965456496484428">"Guza kujaribu tena"</string>
+    <string name="dont_show_again" msgid="786736649151662618">"Usionyeshe hii tena"</string>
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <string name="time_filter_today" msgid="4583546815410219284">"Leo"</string>
+    <string name="time_filter_this_week" msgid="5813004703500752175">"Wiki hii"</string>
+    <string name="time_filter_this_month" msgid="8210393087019089884">"Mwezi huu"</string>
+    <string name="time_filter_all_time" msgid="8122803103693352906">"Jumla"</string>
+    <string name="time_filter_next_24_hours" msgid="7491506657378680252">"Masaa 24 yafuatayo"</string>
+    <string name="time_filter_next_7_days" msgid="468996283535983949">"Siku 7 zifuatazo"</string>
+    <string name="statistic_filter_top_rated" msgid="2702452948496701340">"Ya juu zaidi"</string>
+    <string name="statistic_filter_top_favorited" msgid="1506517547757930229">"Inayopendwa zaidi"</string>
+    <string name="statistic_filter_most_viewed" msgid="6481521188330569959">"Iliyotazamwa zaidi"</string>
+    <string name="statistic_filter_most_discussed" msgid="1683404206032595533">"Iliyojadiliwa zaidi"</string>
+    <string name="flag_reason_porn" msgid="1094162325540923312">"Maudhui ya Ngono"</string>
+    <string name="flag_reason_violence" msgid="5567477933154420778">"Maudhui yenye Vurugu au Chushi"</string>
+    <string name="flag_reason_hate" msgid="3745113319524776191">"Maudhui ya Kuudhi au yenye Chuki"</string>
+    <string name="flag_reason_dangerous" msgid="1466151556214304372">"Vitendo vilivyo na Athari mbaya na Hatari"</string>
+    <string name="flag_reason_spam" msgid="1209550729002669241">"Barua taka"</string>
+    <string name="flag_reason_rights" msgid="326078918880879336">"Inakiuka Haki Zangu"</string>
+    <string name="subtitles" msgid="1977301636988723973">"Maelezo mafupi"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"Lemaza maelezo"</string>
+    <string name="no_subtitles" msgid="4986303295142175942">"Hakuna maelezo mafupi yanayopatikana ya video hii"</string>
+    <string name="video_privacy_public" msgid="5579705185029422662">"Umma"</string>
+    <string name="video_privacy_private" msgid="3678110889381442872">"Faragha"</string>
+    <string name="video_privacy_unlisted" msgid="4283665089130353350">"Haijaorodheshwa"</string>
+    <string name="upload_finished_notification_title" msgid="764477179000129056">"Video ilifanikiwa kupakiwa"</string>
+    <string name="sharing_post_failed_single" msgid="3092260431038695250">"Kulikuwa na tatizo kushirikiwa kwenye <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_failed_multiple" msgid="6678904947228468528">"Kulikuwa na tatizo kushirikiwa kwenye <xliff:g id="NETWORK_NAME">%1$s</xliff:g> na mitandao mingine ya kijamii."</string>
+    <string name="sharing_post_success_single" msgid="1801875786347877139">"Limeshirikiwa kwenye <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_success_multiple" msgid="2069433591097081726">"Limeshirikiwa kwenye <xliff:g id="NETWORK_NAME">%1$s</xliff:g> na mitandao mingine ya kijamii."</string>
+    <string name="accounts_title" msgid="4721231931148866782">"Ingia"</string>
+    <string name="other_account" msgid="3937862708075932733">"Ongeza akaunti"</string>
+    <string name="processing_video" msgid="6308541044349424386">"Video hii inashughulikiwa"</string>
+    <string name="try_again_later" msgid="4095675315043788941">"Unaweza kujaribu tena baadaye."</string>
+    <string name="video_was_deleted" msgid="2148175171179083323">"Video hii ilifutwa na mmiliki"</string>
+    <string name="video_not_available" msgid="6617902565535420195">" Video hii haipatikani"</string>
+    <string name="problem_while_playing" msgid="3053586955704601439">"Kulikuwa na tatizo wakati wa kuchezesha"</string>
+    <string name="problem_while_playing_with_code" msgid="6842849126785729647">"Kulikuwa na tatizo wakati inacheza [<xliff:g id="ERROR_CODE">%1$d</xliff:g>]"</string>
+    <string name="unable_to_connect" msgid="7975874433500032709">"Imeshindwa kuunganisha kwa seva"</string>
+    <string name="connection_to_server_lost" msgid="5188941415746504351">"Muunganisho wa seva umepotea"</string>
+    <string name="unsupported_video_format" msgid="6581610518792199244">"Fomati ya video ambayo haihimiliwi"</string>
+    <string name="embedding_not_allowed" msgid="2276938012740817565">"Kupachika kumelemazwa kwa ombi la mmiliki maudhui."</string>
+    <string name="video_infringes_copyright" msgid="405112542760824342">"Video hii iliharibu hati miliki"</string>
+    <string name="video_was_judged_inappropriate" msgid="3094939591548712295">"Video hii iliamuliwa kwa njia isiyofaa"</string>
+    <string name="duplicate_upload" msgid="4121037025019181231">"Video ilikataliwa (rudufu nakala)"</string>
+    <string name="video_violated_terms_of_use" msgid="5939015477990642511">"Video hii ilienda kinyume na masharti ya kutumia"</string>
+    <string name="uploader_account_suspended" msgid="478921997329484038">"Akaunti ya mpakizaji ilisimamishwa"</string>
+    <string name="video_too_long" msgid="920962005485307212">"Video hii ni ndefu zaidi"</string>
+    <string name="blocked_by_content_owner" msgid="3409643252225778636">"Imezuiliwa kwa mmiliki wa maudhui"</string>
+    <string name="video_not_available_in_your_country" msgid="2606970418922492683">"Haipatikani kwenye nchi yako"</string>
+    <string name="video_not_available_on_mobile" msgid="7967455158803415329">"Mmiliki maudhui hajaweka video hii kupatikana kwenye simu"</string>
+    <string name="video_is_private" msgid="4035365641729391026">"Video hii ni ya ufaragha"</string>
+    <string name="video_couldnt_be_processed" msgid="1039701253687345063">"Video hii hainge geuzwa"</string>
+    <string name="video_is_in_an_invalid_format" msgid="6468168866849783876">"Video hii iko katika umbizo la faili batili"</string>
+    <string name="video_uses_an_unsupported_codec" msgid="5031422885367214838">"Video hii inatumia kodeki isiyosaidiwa"</string>
+    <string name="video_is_empty" msgid="3140641145159105643">"Video hii ni tupu"</string>
+    <string name="video_is_too_small" msgid="6940775886744472544">"Video hii ni ndogo zaidi"</string>
+    <string name="adult_content_intro" msgid="4584417345075529875">"Video hii inaweza kuwa na maudhui yasiyofaa kwa watumiaji wengine, kama ilivyoalamishwa na jumuia ya watumiaji ya YouTube."</string>
+    <string name="adult_content_confirm_single_video" msgid="5310148582462951676">"Tafadhali thibitisha unataka kuitazama."</string>
+    <string name="adult_content_underage" msgid="5362752285669954500">"Samahani, lazima uwe na miaka 18 au zaidi ili kuona video hii."</string>
+    <string name="event_video_rated" msgid="872838196913112744">"<xliff:g id="USERNAME">%1$s</xliff:g> alikadiria"</string>
+    <string name="event_video_shared" msgid="5584437040368965149">"<xliff:g id="USERNAME">%1$s</xliff:g> alishiriki"</string>
+    <string name="event_video_favorited" msgid="927594648101735146">"<xliff:g id="USERNAME">%1$s</xliff:g> alichagua kama kipendwa"</string>
+    <string name="event_video_commented" msgid="9186653372018056391">"<xliff:g id="USERNAME">%1$s</xliff:g> alitoa maoni"</string>
+    <string name="event_video_uploaded" msgid="8057976670532000500">"<xliff:g id="USERNAME">%1$s</xliff:g> alipakia"</string>
+    <string name="event_video_added_to_playlist" msgid="7551840211732155658">"&lt;b&gt;<xliff:g id="USERNAME">%1$s</xliff:g>&lt;/b&gt; aliongeza kwenye orodha ya kucheza"</string>
+    <string name="event_friend_added" msgid="7546667243222165309">"<xliff:g id="USERNAME">%1$s</xliff:g> alikuwa rafiki na"</string>
+    <string name="event_user_subscription_added" msgid="91796276730839507">"<xliff:g id="USERNAME">%1$s</xliff:g> walijisajili kwenye"</string>
+    <string name="playlist_skipped_unavailable_videos" msgid="2936485500392428339">"Iliruka video moja au zaidi ambazo hazikupatikana"</string>
+    <string name="autoplay_restriction" msgid="158389253268740063">"Kucheza kiatomatiki kumelemezwa na mmiliki wa maudhui."</string>
+    <string name="ad_portrait" msgid="1358747127755966100">"Tangazo <xliff:g id="REMAININGTIME">%1$s</xliff:g>"</string>
+    <string name="ad_landscape_title" msgid="3784037264960188995">"Tangazo: <xliff:g id="VIDEO_TITLE">%1$s</xliff:g> »"</string>
+    <string name="ad_landscape_no_title" msgid="6353310680522992091">"Tangazo"</string>
+    <string name="ad_learn_more" msgid="7679953743831880120">"Jifunze Zaidi »"</string>
+    <string name="skip_ad_in" msgid="6115543065029677545">"Unaweza kuruka tangazo hili katika <xliff:g id="VALUE">%1$d</xliff:g>"</string>
+    <string name="skip_ad" msgid="2101576881589909777">"Ruka Tangazo »"</string>
+    <string name="ad_next_up" msgid="9052397347269182787">"Ijayo ..."</string>
+    <string name="ad_remaining_time" msgid="3831978919678409371">"Tangazo la <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+  <plurals name="years_ago">
+    <item quantity="one" msgid="6011164943434808302">"Mwaka 1 uliopita"</item>
+    <item quantity="other" msgid="7324060933851047369">"Miaka <xliff:g id="VALUE">%1$d</xliff:g> iliyopita"</item>
+  </plurals>
+  <plurals name="months_ago">
+    <item quantity="one" msgid="8251222113661446110">"Mwezi 1 uliopita"</item>
+    <item quantity="other" msgid="928004251516590089">"Miezi <xliff:g id="VALUE">%1$d</xliff:g> iliyopita"</item>
+  </plurals>
+  <plurals name="weeks_ago">
+    <item quantity="one" msgid="8220753762287286497">"Wiki 1 iliyopita"</item>
+    <item quantity="other" msgid="2091458284539717924">"Wiki <xliff:g id="VALUE">%1$d</xliff:g> zilizopita"</item>
+  </plurals>
+  <plurals name="days_ago">
+    <item quantity="one" msgid="4735281061933538352">"siku 1 iliyopita"</item>
+    <item quantity="other" msgid="8783340047415572507">"Siku <xliff:g id="VALUE">%1$d</xliff:g> zilizopita"</item>
+  </plurals>
+  <plurals name="hours_ago">
+    <item quantity="one" msgid="2033749590885801009">"Saa 1 iliyopita"</item>
+    <item quantity="other" msgid="6461305084541029739">"Saa <xliff:g id="VALUE">%1$d</xliff:g> zilizopita"</item>
+  </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="one" msgid="5196995110076754587">"Dakika 1 iliyopita"</item>
+    <item quantity="other" msgid="1667629255683993462">"Dakika <xliff:g id="VALUE">%1$d</xliff:g> zilizopita"</item>
+  </plurals>
+  <plurals name="seconds_ago">
+    <item quantity="one" msgid="5001191853871840989">"Sekunde 1 iliopita"</item>
+    <item quantity="other" msgid="2961716134454596813">"Sekunde <xliff:g id="VALUE">%1$d</xliff:g> zilizopita"</item>
+  </plurals>
+  <plurals name="days_remaining">
+    <item quantity="one" msgid="6688672348263993459">"Inaisha muda kwa siku 1"</item>
+    <item quantity="other" msgid="3445293740702296105">"Inaisha muda kati ya siku<xliff:g id="DAYS">%1$d</xliff:g>"</item>
+  </plurals>
+  <plurals name="hours_remaining">
+    <item quantity="one" msgid="223247784598159171">"Inaisha muda kwa saa 1"</item>
+    <item quantity="other" msgid="3723393716802971786">"Inaisha muda kati ya saa <xliff:g id="HOURS">%1$d</xliff:g>"</item>
+  </plurals>
+    <string name="less_then_one_hour_remaining" msgid="3170843909663366351">"Inaisha muda chini ya saa moja"</string>
+    <string name="about_to_expire" msgid="1138849960294296793">"karibu kuchina"</string>
+    <string name="expired" msgid="4163617224776035785">"Muda Wake Umekwisha"</string>
+    <string name="live_event_unavailable" msgid="3482822753939282549">"Hapatikani"</string>
+    <string name="live_event_cant_replay" msgid="610249048947214821">"Haipatikani kamwe"</string>
+    <string name="live_event_starts_at" msgid="6278413483327194253">"Tukio hili la moja kwa moja litaanza <xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="live_started_when" msgid="893013096657434448">"Imeanzisha <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_today_when" msgid="3614812749139425283">"Leo kwa <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_when" msgid="6122965173933332413">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="open_source_licenses_title" msgid="122604737063804870">"Leseni za programu huru za kompyuta"</string>
+    <string name="open_source_licenses_description" msgid="1772312313191687173">"Taarifa kuhusu leseni za programu huru za kompyuta"</string>
+    <string name="accessibility_enter_fullscreen" msgid="2145998186071424023">"Ingia kwenye skrini nzima"</string>
+    <string name="accessibility_exit_fullscreen" msgid="7379786446110918503">"Ondoka kwenye skrini nzima"</string>
+    <string name="accessibility_closed_captions" msgid="8652785807213850219">"Onyesha menyu ya maelezo mafupi yaliyofungwa"</string>
+    <string name="accessibility_play" msgid="1639109792960696807">"Cheza video"</string>
+    <string name="accessibility_pause" msgid="7571337388732623918">"Sitisha video"</string>
+    <string name="accessibility_replay" msgid="4609928826261820283">"Cheza tena video"</string>
+    <string name="accessibility_hq" msgid="4879694023617718380">"Badili hadi kwa ubora wa juu"</string>
+    <string name="accessibility_lq" msgid="4739539512111087659">"Badili hadi kwa ubora wa chini"</string>
+    <string name="accessibility_next" msgid="4162310692370592051">"Video inayofuata"</string>
+    <string name="accessibility_previous" msgid="4250268136510902573">"Video iliyotangulia"</string>
+    <string name="accessibility_show_options_menu" msgid="7554607793620721055">"Onyesha menyu ya machaguo"</string>
+    <string name="accessibility_play_in_youtube" msgid="3666001248855022228">"Cheza katika programu ya YouTube"</string>
+</resources>

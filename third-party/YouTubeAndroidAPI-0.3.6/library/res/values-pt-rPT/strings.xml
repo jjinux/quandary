@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2007 Google Inc. All Rights Reserved.
+ -->
+
+<!-- 
+  Generally CHAR LIMIT values are based on:
+  Tab label: 20
+  Dialog (title and items): 20
+  Toast: 50
+  Action button: 12
+  Header button: 20
+  Short label: 12
+  Medium label: 30
+  Long label: 50
+  Text: 100
+  Long Text: 150
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="results" msgid="3491858164798373513">"Resultados"</string>
+    <string name="share_subject" msgid="4288655105936857100">"Ver \"<xliff:g id="VIDEO_TITLE">%1$s</xliff:g>\" no YouTube"</string>
+    <string name="no_network" msgid="4034091614982104955">"Não existe ligação à rede de momento. Tente novamente mais tarde."</string>
+    <string name="send_video" msgid="1807054013787019321">"Partilhar este vídeo através de"</string>
+    <string name="pick_video_to_upload" msgid="427478221206942722">"Seleccionar o vídeo a carregar"</string>
+    <string name="warning_3d_bandwidth" msgid="8791840892348766650">"Vídeos em formato 3D consomem uma grande quantidade de dados e funcionam melhor numa ligação Wi-Fi"</string>
+    <string name="error_network" msgid="6203606370875060882">"Ocorreu um problema com a rede"</string>
+    <string name="error_connection" msgid="2998095651459626987">"Ocorreu um problema ao ligar à rede"</string>
+    <string name="error_http" msgid="5344829683089448616">"Ocorreu um problema com a rede [<xliff:g id="HTTP_ERROR">%1$s</xliff:g>]"</string>
+    <string name="error_youtube_server_down" msgid="4707901657961236961">"O YouTube está temporariamente indisponível."</string>
+    <string name="error_response" msgid="1670518993171072015">"Ocorreu um problema com a resposta da rede"</string>
+    <string name="error_response_invalid" msgid="170451687814499718">"Formato de resposta da rede inválido"</string>
+    <string name="error_dev_reg" msgid="4384345559801694025">"Ocorreu um problema no arranque. Verifique a ligação à rede e a hora do sistema."</string>
+    <string name="error_authenticating" msgid="6511119385715669049">"Ocorreu um problema na autenticação"</string>
+    <string name="error_no_linked_youtube_account" msgid="2109268361764786379">"A sua conta não está associada a uma conta YouTube."\n"Inicie sessão em www.youtube.com para associar as contas."</string>
+    <string name="error_forbidden_action" msgid="1023483961100814358">"Esta acção não é permitida"</string>
+    <string name="error_forbidden_list_access" msgid="1843695621827543473">"Esta lista não pode ser visualizada"</string>
+    <string name="error_generic" msgid="8588391221420698561">"Ocorreu um erro"</string>
+    <string name="all_categories" msgid="7327269535754951429">"Tudo"</string>
+    <string name="live_category" msgid="1223570493160116614">"Em directo!"</string>
+    <string name="ok" msgid="4984722672564018307">"OK"</string>
+    <string name="cancel" msgid="2358776892905393697">"Cancelar"</string>
+    <string name="confirm" msgid="466056620180183112">"Confirmar"</string>
+    <string name="retry" msgid="7580519258934142753">"Tentar novamente"</string>
+    <string name="tap_to_retry" msgid="1298965456496484428">"Toque para tentar novamente"</string>
+    <string name="dont_show_again" msgid="786736649151662618">"Não mostrar de novo"</string>
+    <string name="space_separator" msgid="1841785310693184898"></string>
+    <string name="time_filter_today" msgid="4583546815410219284">"Hoje"</string>
+    <string name="time_filter_this_week" msgid="5813004703500752175">"Esta semana"</string>
+    <string name="time_filter_this_month" msgid="8210393087019089884">"Este mês"</string>
+    <string name="time_filter_all_time" msgid="8122803103693352906">"Sempre"</string>
+    <string name="time_filter_next_24_hours" msgid="7491506657378680252">"Próximas 24 horas"</string>
+    <string name="time_filter_next_7_days" msgid="468996283535983949">"Próximos 7 dias"</string>
+    <string name="statistic_filter_top_rated" msgid="2702452948496701340">"Os mais bem classificados"</string>
+    <string name="statistic_filter_top_favorited" msgid="1506517547757930229">"Favoritos principais"</string>
+    <string name="statistic_filter_most_viewed" msgid="6481521188330569959">"Mais vistos"</string>
+    <string name="statistic_filter_most_discussed" msgid="1683404206032595533">"Os mais discutidos"</string>
+    <string name="flag_reason_porn" msgid="1094162325540923312">"Conteúdos de Natureza Sexual"</string>
+    <string name="flag_reason_violence" msgid="5567477933154420778">"Conteúdo Violento ou Repulsivo"</string>
+    <string name="flag_reason_hate" msgid="3745113319524776191">"Conteúdo Abusivo ou de Incitação ao Ódio"</string>
+    <string name="flag_reason_dangerous" msgid="1466151556214304372">"Atos Perigosos e Prejudiciais"</string>
+    <string name="flag_reason_spam" msgid="1209550729002669241">"Spam"</string>
+    <string name="flag_reason_rights" msgid="326078918880879336">"Viola os Meus Direitos"</string>
+    <string name="subtitles" msgid="1977301636988723973">"Legendas"</string>
+    <string name="turn_off_subtitles" msgid="7834745906481303199">"Desactivar legendas"</string>
+    <string name="no_subtitles" msgid="4986303295142175942">"Não há legendas disponíveis para este vídeo"</string>
+    <string name="video_privacy_public" msgid="5579705185029422662">"Público"</string>
+    <string name="video_privacy_private" msgid="3678110889381442872">"Privado"</string>
+    <string name="video_privacy_unlisted" msgid="4283665089130353350">"Não listado"</string>
+    <string name="upload_finished_notification_title" msgid="764477179000129056">"Vídeo carregado com sucesso"</string>
+    <string name="sharing_post_failed_single" msgid="3092260431038695250">"Ocorreu um problema ao partilhar com <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_failed_multiple" msgid="6678904947228468528">"Ocorreu um problema ao partilhar com <xliff:g id="NETWORK_NAME">%1$s</xliff:g> e outras redes sociais."</string>
+    <string name="sharing_post_success_single" msgid="1801875786347877139">"Partilhado com <xliff:g id="NETWORK_NAME">%1$s</xliff:g>."</string>
+    <string name="sharing_post_success_multiple" msgid="2069433591097081726">"Partilhado com <xliff:g id="NETWORK_NAME">%1$s</xliff:g> e outras redes sociais."</string>
+    <string name="accounts_title" msgid="4721231931148866782">"Iniciar sessão"</string>
+    <string name="other_account" msgid="3937862708075932733">"Adicionar conta"</string>
+    <string name="processing_video" msgid="6308541044349424386">"Este vídeo está a ser processado"</string>
+    <string name="try_again_later" msgid="4095675315043788941">"Pode tentar novamente mais tarde."</string>
+    <string name="video_was_deleted" msgid="2148175171179083323">"Este vídeo foi elim. pelo proprietário"</string>
+    <string name="video_not_available" msgid="6617902565535420195">"Este vídeo não está disponível"</string>
+    <string name="problem_while_playing" msgid="3053586955704601439">"Ocorreu um erro na reprodução"</string>
+    <string name="problem_while_playing_with_code" msgid="6842849126785729647">"Ocorreu um problema ao jogar [<xliff:g id="ERROR_CODE">%1$d</xliff:g>]"</string>
+    <string name="unable_to_connect" msgid="7975874433500032709">"Não é possível ligar ao servidor"</string>
+    <string name="connection_to_server_lost" msgid="5188941415746504351">"Ligação ao servidor perdida"</string>
+    <string name="unsupported_video_format" msgid="6581610518792199244">"Formato de vídeo não suportado"</string>
+    <string name="embedding_not_allowed" msgid="2276938012740817565">"Incorporação desativada a pedido do proprietário do conteúdo."</string>
+    <string name="video_infringes_copyright" msgid="405112542760824342">"Este vídeo infringiu direitos de autor"</string>
+    <string name="video_was_judged_inappropriate" msgid="3094939591548712295">"Este vídeo foi classificado como impróprio"</string>
+    <string name="duplicate_upload" msgid="4121037025019181231">"O vídeo foi recusado (carregamento duplicado)"</string>
+    <string name="video_violated_terms_of_use" msgid="5939015477990642511">"Este vídeo violou termos de utilização"</string>
+    <string name="uploader_account_suspended" msgid="478921997329484038">"A conta do carregador foi suspensa"</string>
+    <string name="video_too_long" msgid="920962005485307212">"Este vídeo é demasiado longo"</string>
+    <string name="blocked_by_content_owner" msgid="3409643252225778636">"Bloqueado pelo proprietário do conteúdo"</string>
+    <string name="video_not_available_in_your_country" msgid="2606970418922492683">"Não disponível no seu país"</string>
+    <string name="video_not_available_on_mobile" msgid="7967455158803415329">"Vídeo não disponível para telemóvel"</string>
+    <string name="video_is_private" msgid="4035365641729391026">"Este vídeo é privado"</string>
+    <string name="video_couldnt_be_processed" msgid="1039701253687345063">"Não foi possível converter o vídeo"</string>
+    <string name="video_is_in_an_invalid_format" msgid="6468168866849783876">"Este vídeo está num formato de ficheiro inválido"</string>
+    <string name="video_uses_an_unsupported_codec" msgid="5031422885367214838">"O vídeo utiliza um codec não suportado"</string>
+    <string name="video_is_empty" msgid="3140641145159105643">"O vídeo está vazio"</string>
+    <string name="video_is_too_small" msgid="6940775886744472544">"O vídeo é demasiado pequeno"</string>
+    <string name="adult_content_intro" msgid="4584417345075529875">"A comunidade de utilizadores do YouTube assinalou este vídeo como podendo conter conteúdo impróprio para alguns utilizadores."</string>
+    <string name="adult_content_confirm_single_video" msgid="5310148582462951676">"Confirme que pretende visualizar."</string>
+    <string name="adult_content_underage" msgid="5362752285669954500">"Lamentamos, mas tem de ter 18 anos ou mais para visualizar este vídeo."</string>
+    <string name="event_video_rated" msgid="872838196913112744">"<xliff:g id="USERNAME">%1$s</xliff:g> classificou"</string>
+    <string name="event_video_shared" msgid="5584437040368965149">"<xliff:g id="USERNAME">%1$s</xliff:g> partilhou"</string>
+    <string name="event_video_favorited" msgid="927594648101735146">"<xliff:g id="USERNAME">%1$s</xliff:g> adicionou aos favoritos"</string>
+    <string name="event_video_commented" msgid="9186653372018056391">"<xliff:g id="USERNAME">%1$s</xliff:g> comentou"</string>
+    <string name="event_video_uploaded" msgid="8057976670532000500">"<xliff:g id="USERNAME">%1$s</xliff:g> carregou"</string>
+    <string name="event_video_added_to_playlist" msgid="7551840211732155658">"&lt;b&gt;<xliff:g id="USERNAME">%1$s</xliff:g>&lt;/b&gt; adicionou a uma lista de reprodução"</string>
+    <string name="event_friend_added" msgid="7546667243222165309">"<xliff:g id="USERNAME">%1$s</xliff:g> tornaram-se amigos de"</string>
+    <string name="event_user_subscription_added" msgid="91796276730839507">"<xliff:g id="USERNAME">%1$s</xliff:g> subscreveu"</string>
+    <string name="playlist_skipped_unavailable_videos" msgid="2936485500392428339">"Foram ignorados um ou mais vídeos que não estavam disponíveis"</string>
+    <string name="autoplay_restriction" msgid="158389253268740063">"Reprod. autom. desat. pelo propriet. do conteúdo."</string>
+    <string name="ad_portrait" msgid="1358747127755966100">"Anúncio <xliff:g id="REMAININGTIME">%1$s</xliff:g>"</string>
+    <string name="ad_landscape_title" msgid="3784037264960188995">"Anúncio: <xliff:g id="VIDEO_TITLE">%1$s</xliff:g> »"</string>
+    <string name="ad_landscape_no_title" msgid="6353310680522992091">"Publicidade"</string>
+    <string name="ad_learn_more" msgid="7679953743831880120">"Saiba Mais »"</string>
+    <string name="skip_ad_in" msgid="6115543065029677545">"É possível ignorar este anúncio em <xliff:g id="VALUE">%1$d</xliff:g>s"</string>
+    <string name="skip_ad" msgid="2101576881589909777">"Ignorar Anúncio »"</string>
+    <string name="ad_next_up" msgid="9052397347269182787">"Já a Seguir..."</string>
+    <string name="ad_remaining_time" msgid="3831978919678409371">"Anúncio <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+  <plurals name="years_ago">
+    <item quantity="one" msgid="6011164943434808302">"Há 1 ano"</item>
+    <item quantity="other" msgid="7324060933851047369">"Há <xliff:g id="VALUE">%1$d</xliff:g> anos"</item>
+  </plurals>
+  <plurals name="months_ago">
+    <item quantity="one" msgid="8251222113661446110">"Há 1 mês"</item>
+    <item quantity="other" msgid="928004251516590089">"Há <xliff:g id="VALUE">%1$d</xliff:g> meses"</item>
+  </plurals>
+  <plurals name="weeks_ago">
+    <item quantity="one" msgid="8220753762287286497">"Há 1 semana"</item>
+    <item quantity="other" msgid="2091458284539717924">"Há <xliff:g id="VALUE">%1$d</xliff:g> semanas"</item>
+  </plurals>
+  <plurals name="days_ago">
+    <item quantity="one" msgid="4735281061933538352">"Há 1 dia"</item>
+    <item quantity="other" msgid="8783340047415572507">"Há <xliff:g id="VALUE">%1$d</xliff:g> dias"</item>
+  </plurals>
+  <plurals name="hours_ago">
+    <item quantity="one" msgid="2033749590885801009">"Há 1 hora"</item>
+    <item quantity="other" msgid="6461305084541029739">"Há <xliff:g id="VALUE">%1$d</xliff:g> horas"</item>
+  </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="one" msgid="5196995110076754587">"Há 1 minuto"</item>
+    <item quantity="other" msgid="1667629255683993462">"Há <xliff:g id="VALUE">%1$d</xliff:g> minutos"</item>
+  </plurals>
+  <plurals name="seconds_ago">
+    <item quantity="one" msgid="5001191853871840989">"Há 1 segundo"</item>
+    <item quantity="other" msgid="2961716134454596813">"Há <xliff:g id="VALUE">%1$d</xliff:g> segundos"</item>
+  </plurals>
+  <plurals name="days_remaining">
+    <item quantity="one" msgid="6688672348263993459">"Expira daqui a 1 dia"</item>
+    <item quantity="other" msgid="3445293740702296105">"Expira dentro de <xliff:g id="DAYS">%1$d</xliff:g> dias"</item>
+  </plurals>
+  <plurals name="hours_remaining">
+    <item quantity="one" msgid="223247784598159171">"Expira daqui a 1 h"</item>
+    <item quantity="other" msgid="3723393716802971786">"Expira em <xliff:g id="HOURS">%1$d</xliff:g> horas"</item>
+  </plurals>
+    <string name="less_then_one_hour_remaining" msgid="3170843909663366351">"Expira em menos de uma hora"</string>
+    <string name="about_to_expire" msgid="1138849960294296793">"Prestes a expirar"</string>
+    <string name="expired" msgid="4163617224776035785">"Expirado"</string>
+    <string name="live_event_unavailable" msgid="3482822753939282549">"Indisponível"</string>
+    <string name="live_event_cant_replay" msgid="610249048947214821">"Já não está disponível"</string>
+    <string name="live_event_starts_at" msgid="6278413483327194253">"Este evento em direto começará às <xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="live_started_when" msgid="893013096657434448">"Começou há <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_today_when" msgid="3614812749139425283">"Hoje às <xliff:g id="VALUE">%1$s</xliff:g>"</string>
+    <string name="live_starting_when" msgid="6122965173933332413">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="open_source_licenses_title" msgid="122604737063804870">"Licenças de código aberto"</string>
+    <string name="open_source_licenses_description" msgid="1772312313191687173">"Detalhes da licença para software de código aberto"</string>
+    <string name="accessibility_enter_fullscreen" msgid="2145998186071424023">"Mudar p/ ecrã inteiro"</string>
+    <string name="accessibility_exit_fullscreen" msgid="7379786446110918503">"Sair de ecrã inteiro"</string>
+    <string name="accessibility_closed_captions" msgid="8652785807213850219">"Mostrar menu legendas ocultas"</string>
+    <string name="accessibility_play" msgid="1639109792960696807">"Reproduzir vídeo"</string>
+    <string name="accessibility_pause" msgid="7571337388732623918">"Interromper vídeo"</string>
+    <string name="accessibility_replay" msgid="4609928826261820283">"Repetir vídeo"</string>
+    <string name="accessibility_hq" msgid="4879694023617718380">"Mudar p/ alta qualidade"</string>
+    <string name="accessibility_lq" msgid="4739539512111087659">"Mudar p/ baixa qualidade"</string>
+    <string name="accessibility_next" msgid="4162310692370592051">"Vídeo seguinte"</string>
+    <string name="accessibility_previous" msgid="4250268136510902573">"Vídeo anterior"</string>
+    <string name="accessibility_show_options_menu" msgid="7554607793620721055">"Mostrar menu de opções"</string>
+    <string name="accessibility_play_in_youtube" msgid="3666001248855022228">"Reproduzir na aplicação YouTube"</string>
+</resources>
