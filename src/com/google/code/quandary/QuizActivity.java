@@ -32,6 +32,7 @@ public class QuizActivity extends YouTubeBaseActivity
     private YouTubePlayerView player;
     private View otherViews;
     private int windowFlags;
+    private Quiz quiz;
 
     private boolean fullscreen;
 
@@ -55,8 +56,7 @@ public class QuizActivity extends YouTubeBaseActivity
             getActionBar().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
         }
         Intent intent= getIntent();
-        Quiz quiz= (Quiz) intent.getSerializableExtra("myquiz");
-        System.out.println(quiz.getVideoId());
+        quiz = (Quiz) intent.getSerializableExtra("myquiz");
 
         YouTube.initialize(this, DeveloperKey.DEVELOPER_KEY);
         registerPlayerView(player);
@@ -73,7 +73,7 @@ public class QuizActivity extends YouTubeBaseActivity
     @Override
     protected void onResume() {
         super.onResume();
-        player.loadVideo("9c6W4CCU9M4");
+        player.loadVideo(quiz.getVideoId());
     }
 
     @Override
