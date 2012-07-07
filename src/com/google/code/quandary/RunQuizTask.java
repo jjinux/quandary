@@ -10,11 +10,9 @@ import com.google.code.quandary.quiz.Quiz;
 
 public class RunQuizTask extends AsyncTask<String, Void, Quiz> {
 
-    private Context context;
     private QuizEntryActivity quizEntryActivity;
 
-    public RunQuizTask(Context context, QuizEntryActivity quizEntryActivity) {
-        this.context=context;
+    public RunQuizTask(QuizEntryActivity quizEntryActivity) {
         this.quizEntryActivity=quizEntryActivity;
 
     }
@@ -24,7 +22,7 @@ public class RunQuizTask extends AsyncTask<String, Void, Quiz> {
         try {
             Quiz quiz = getQuiz(urls[0]);
             Intent myIntent;
-            myIntent = new Intent(context, QuizActivity.class);
+            myIntent = new Intent(quizEntryActivity, QuizActivity.class);
             myIntent.putExtra("myquiz", quiz);
             quizEntryActivity.startActivityForResult(myIntent, 0);
             return quiz;
