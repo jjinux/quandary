@@ -33,11 +33,10 @@ public class QuizScoreActivity extends Activity
         b = (Button) findViewById(R.id.again_button);
         b.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
-                //again?
-
+                Intent intent;
+                intent = new Intent(QuizScoreActivity.this, QuizActivity.class);
+                startActivity(intent);
             }
-
-
         });
 
     }

@@ -37,7 +37,7 @@ public class QuizEntryActivity extends Activity
                         "Loading ..." , Toast.LENGTH_LONG);
                 msg.show();
 
-                new RunQuizTask(v.getContext(),QuizEntryActivity.this).execute(url);
+                new RunQuizTask(QuizEntryActivity.this).execute(url);
 
             }
 
