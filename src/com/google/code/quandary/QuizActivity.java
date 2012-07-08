@@ -106,7 +106,10 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     @Override
     protected void onResume() {
         super.onResume();
+        if(player!=null && quiz !=null &&quiz.getVideoId()!=null )  {
         player.loadVideo(quiz.getVideoId());
+        player.setFullscreen(true);
+        }
     }
 
     /**
@@ -181,6 +184,7 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     }
 
     private void showQuestions() {
+        player.setFullscreen(false);
         LinearLayout questionsLayout = (LinearLayout) findViewById(R.id.quiz_layout);
         questionsLayout.removeAllViews();
 
@@ -221,6 +225,7 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         int answerIndex = mAnswersRadioGroup.getCheckedRadioButtonId() - 1;
         mCurrentQuestion.setUserAnswer(answerIndex);
         player.play();
+        player.setFullscreen(true);
     }
 
     private void hideQuestions() {
