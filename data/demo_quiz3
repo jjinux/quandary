@@ -2,7 +2,7 @@
     "video_id": "6tCtM8UEQv8",
     "questions": [{
         "time": 2000,
-        "question": "Who will come out from the hole?",
+        "question": "What will come out of the hole?",
         "answers": [{
             "text": "A mouse",
             "correct": true
@@ -15,7 +15,7 @@
         }]
     }, {
         "time": 7500,
-        "question": "What will this mouse find?",
+        "question": "What will the mouse find?",
         "answers": [{
             "text": "Bread",
             "correct": false
@@ -33,7 +33,7 @@
             "text": "He will be caught and die",
             "correct": false
         }, {
-            "text": "He will be caught but escaped",
+            "text": "He will be caught but escape",
             "correct": true
         }, {
             "text": "He will run away",
@@ -41,15 +41,15 @@
         }]
     }, {
         "time": 79500,
-        "question": "What's this AD for?",
+        "question": "What's this advertisement for?",
         "answers": [{
-            "text": "Pet",
+            "text": "The humane treatment of animals",
             "correct": false
         }, {
-            "text": "Mouse trap",
+            "text": "A better mouse trap",
             "correct": false
         }, {
-            "text": "Energy drink",
+            "text": "A new energy drink",
             "correct": false
         }, {
             "text": "Cheese",
