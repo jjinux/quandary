@@ -9,6 +9,7 @@ Copyright 2012 Google Inc. All Rights Reserved.
             parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:textSize">24sp</item>
     </style>
 
 </resources>
