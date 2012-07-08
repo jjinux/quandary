@@ -40,7 +40,6 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     private Handler mHandler;
     private YouTubePlayerView player;
     private Quiz quiz;
-    private Integer mCurrentQuestionIndex = 0;
     private Question mCurrentQuestion;
     private RadioGroup mAnswersRadioGroup;
 
@@ -110,31 +109,56 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         }
     }
 
+    /**
+     * Figure out what the next question is and how long we should wait before pausing.
+     * React gracefully if the user scrubs to a new part of the video.
+     */
     public void onPlaying() {
+        // Hide the questions. This will happen if the user hit the play button or if he submitted an answer.
+        hideQuestions();
+
+        // Figure out the closest question to show next.
+        mCurrentQuestion = null;
         List<Question> questions = quiz.getQuestions();
-        if (mCurrentQuestionIndex < questions.size()) {
-            Long timeToPause = mCurrentQuestionIndex == 0 ? questions.get(mCurrentQuestionIndex).getTimeToPause()
-                    : questions.get(mCurrentQuestionIndex).getTimeToPause() - questions.get(mCurrentQuestionIndex - 1).getTimeToPause();
+        int currentTime = player.getCurrentTimeMillis();
+        for (Question question : questions) {
+
+            // If this question hasn't already passed
+            if (currentTime <= question.getTimeToPause() &&
+
+                    // And we don't already have a question
+                    (mCurrentQuestion == null ||
+
+                            // Or this question is closer than than the current next question
+                            (question.getTimeToPause() - currentTime <
+                                    mCurrentQuestion.getTimeToPause() - currentTime))) {
+
+                mCurrentQuestion = question;
+            }
+        }
+
+        // Stop the video when it's time for the next question.
+        if (mCurrentQuestion != null) {
+            Long timeToPause = mCurrentQuestion.getTimeToPause() - currentTime;
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     player.pause();
                 }
-            }, timeToPause
-            );
-            new QuizCheckerRunnable(player);
+            }, timeToPause);
         }
-        hideQuestions();
     }
 
     public void onPaused() {
         showQuestions();
     }
 
+    /**
+     * Show the user his score. This will happen whether the user finished the quiz or just decided to hit the stop
+     * button.
+     */
     public void onStopped() {
-        if (mCurrentQuestionIndex == quiz.getQuestions().size()) {
-            showQuizScoreActivity();
-        }
+        showQuizScoreActivity();
     }
 
     public void onBuffering(boolean b) {
@@ -147,13 +171,11 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         LinearLayout questionsLayout = (LinearLayout) findViewById(R.id.quiz_layout);
         questionsLayout.removeAllViews();
 
-        // Don't go past the last question.
-        if (mCurrentQuestionIndex >= quiz.getQuestions().size()) {
+        if (mCurrentQuestion == null) {
             return;
         }
 
         TextView questionTextView = new TextView(this);
-        mCurrentQuestion = quiz.getQuestions().get(mCurrentQuestionIndex);
         questionTextView.setText(mCurrentQuestion.getQuestionDescription());
         questionsLayout.addView(questionTextView);
 
@@ -185,7 +207,6 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     public void onSubmitButtonClicked() {
         int answerIndex = mAnswersRadioGroup.getCheckedRadioButtonId() - 1;
         mCurrentQuestion.setUserAnswer(answerIndex);
-        mCurrentQuestionIndex++;
         player.play();
     }
 
