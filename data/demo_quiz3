@@ -26,35 +26,34 @@
             "text": "Another mouse",
             "correct": false
         }]
-    },{
-              "time": 27000,
-              "question": "What will happen next?",
-              "answers": [{
-                  "text": "He will be caught and die",
-                  "correct": false
-              }, {
-                  "text": "He will be caught but escaped",
-                  "correct": true
-              }, {
-                  "text": "He will run away",
-                  "correct": false
-              }]
-          },{
-              "time": 79500,
-              "question": "What's this AD for?",
-              "answers": [{
-                  "text": "Pet",
-                  "correct": false
-              }, {
-                  "text": "Mouse trap",
-                  "correct": false
-              }, {
-                  "text": "Energy drink",
-                  "correct": false
-              }, {
-                 "text": "Cheese",
-                 "correct": true
-             }]
-          }
-    ]
+    }, {
+        "time": 27000,
+        "question": "What will happen next?",
+        "answers": [{
+            "text": "He will be caught and die",
+            "correct": false
+        }, {
+            "text": "He will be caught but escaped",
+            "correct": true
+        }, {
+            "text": "He will run away",
+            "correct": false
+        }]
+    }, {
+        "time": 79500,
+        "question": "What's this AD for?",
+        "answers": [{
+            "text": "Pet",
+            "correct": false
+        }, {
+            "text": "Mouse trap",
+            "correct": false
+        }, {
+            "text": "Energy drink",
+            "correct": false
+        }, {
+            "text": "Cheese",
+            "correct": true
+        }]
+    }]
 }
