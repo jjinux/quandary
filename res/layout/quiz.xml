@@ -26,17 +26,6 @@
                 android:orientation="vertical">
         </LinearLayout>
 
-        <Button
-                android:id="@+id/fullscreen_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/enter_fullscreen"/>
-
-        <Button
-                android:id="@+id/finish_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/finish"/>
     </LinearLayout>
 
 </LinearLayout>

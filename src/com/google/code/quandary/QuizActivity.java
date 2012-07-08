@@ -74,26 +74,6 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         // Specify that we want handle fullscreen behavior ourselves.
         player.enableCustomFullscreen(this);
 
-        // You can use your own button to switch to fullscreen too
-        findViewById(R.id.fullscreen_button).setOnClickListener(
-                new OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        player.setFullscreen(!fullscreen);
-                    }
-                }
-        );
-
-        // Go to the QuizScoreActivity when the user presses "Finish".
-        findViewById(R.id.finish_button).setOnClickListener(
-                new OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        showQuizScoreActivity();
-                    }
-                }
-        );
-
         doLayout();
     }
 

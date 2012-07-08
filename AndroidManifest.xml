@@ -6,8 +6,8 @@
     <uses-sdk android:minSdkVersion="15"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="com.google.code.quandary.QuizEntryActivity"
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:screenOrientation="landscape">
+        <activity android:name="com.google.code.quandary.QuizEntryActivity"  android:screenOrientation="landscape"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -17,14 +17,14 @@
         <activity
                 android:label="@string/app_name"
                 android:name="com.google.code.quandary.QuizActivity"
-                android:screenOrientation="sensor"
+                android:screenOrientation="landscape"
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:theme="@style/Theme.DeviceDefault.Black">
         </activity>
         <activity
                 android:label="@string/app_name"
                 android:name="com.google.code.quandary.QuizScoreActivity"
-                android:screenOrientation="sensor"
+                android:screenOrientation="landscape"
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:theme="@style/Theme.DeviceDefault.Black">
         </activity>
