@@ -34,7 +34,7 @@ public class QuizScoreActivity extends Activity
         b.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(QuizScoreActivity.this, QuizActivity.class);
+                intent = new Intent(QuizScoreActivity.this, QuizEntryActivity.class);
                 startActivity(intent);
             }
         });

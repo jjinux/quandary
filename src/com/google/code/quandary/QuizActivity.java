@@ -105,7 +105,9 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
     @Override
     protected void onResume() {
         super.onResume();
+        if(player!=null && quiz !=null &&quiz.getVideoId()!=null )  {
         player.loadVideo(quiz.getVideoId());
+        }
     }
 
     public void onPlaying() {
