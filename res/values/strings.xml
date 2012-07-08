@@ -6,4 +6,6 @@
     <string name="enter_fullscreen">Enter Fullscreen</string>
     <string name="finish">Finish</string>
     <string name="submit">Submit</string>
+    <string name="take_another_quiz">Take another quiz</string>
+    <string name="your_score">Your score:</string>
 </resources>
