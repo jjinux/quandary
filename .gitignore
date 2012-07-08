@@ -8,3 +8,6 @@ gen
 # Created by IntelliJ
 .idea
 *.iml
+
+# This shouldn't be in Git
+third-party/YouTubeAndroidAPI-0.3.6
