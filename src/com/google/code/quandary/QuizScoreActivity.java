@@ -48,7 +48,7 @@ public class QuizScoreActivity extends Activity
             int correctNum=0;
             for(Question question : quiz.getQuestions()){
                 if(question.getUserAnswer() != null && question.getCorrectAnswer()!=null &&
-                   question.getUserAnswer()==question.getCorrectAnswer()){
+                   question.getUserAnswer().equals(question.getCorrectAnswer())){
                     correctNum++;
                 }
             }
