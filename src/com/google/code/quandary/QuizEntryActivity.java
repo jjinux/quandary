@@ -25,7 +25,7 @@ public class QuizEntryActivity extends Activity
         final Button b;
 
         et = (EditText) findViewById(R.id.edittext);
-        et.setText(getResources().getString(R.string.QuizDefaultUrl));
+        et.setHint(getResources().getString(R.string.QuizDefaultUrl));
         b = (Button) findViewById(R.id.button);
 
         b.setOnClickListener(new OnClickListener() {
