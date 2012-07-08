@@ -33,6 +33,8 @@ import java.util.List;
 public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenListener,
         YouTubePlayer.PlaybackEventListener {
 
+    private static final int SMALL_AMOUNT_OF_TIME = 250;
+
     private LinearLayout baseLayout;
     private View otherViews;
     private int windowFlags;
@@ -121,29 +123,42 @@ public class QuizActivity extends YouTubeBaseActivity implements OnFullscreenLis
         int currentTime = player.getCurrentTimeMillis();
         for (Question question : questions) {
 
-            // If this question hasn't already passed
-            if (currentTime <= question.getTimeToPause() &&
+            // Continue if this question has already passed.
+            if (question.getTimeToPause() < currentTime) {
+                continue;
+            }
 
-                    // And we don't already have a question
-                    (mCurrentQuestion == null ||
+            // Don't use this question if we just finished answering it very recently. (Unfortunately, time control
+            // isn't totally exact, so we have to avoid answering the same question again right after the user answers
+            // it.)
+            long timeUntilQuestion = question.getTimeToPause() - currentTime;
+            if (timeUntilQuestion < SMALL_AMOUNT_OF_TIME &&
+                question.getUserAnswer() != null) {
+                continue;
+            }
 
-                            // Or this question is closer than than the current next question
-                            (question.getTimeToPause() - currentTime <
-                                    mCurrentQuestion.getTimeToPause() - currentTime))) {
+            // Use this question if we don't already have one.
+            if (mCurrentQuestion == null) {
+                mCurrentQuestion = question;
+                continue;
+            }
 
+            // Use this question if it is sooner than the current next question.
+            long timeUntilMCurrentQuestion = mCurrentQuestion.getTimeToPause() - currentTime;
+            if (timeUntilQuestion < timeUntilMCurrentQuestion) {
                 mCurrentQuestion = question;
             }
         }
 
         // Stop the video when it's time for the next question.
         if (mCurrentQuestion != null) {
-            Long timeToPause = mCurrentQuestion.getTimeToPause() - currentTime;
+            long timeUntilMCurrentQuestion = mCurrentQuestion.getTimeToPause() - currentTime;
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     player.pause();
                 }
-            }, timeToPause);
+            }, timeUntilMCurrentQuestion);
         }
     }
 
