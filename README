@@ -1,0 +1,25 @@
+Quandary
+========
+
+This is an Android application that quizzes you while you watch a video. Bin
+Lin and Shannon -jj Behrens wrote it at the YouTube Mobile / Google TV London
+Hackathon.
+
+URL: http://code.google.com/p/quandary/
+
+Building
+--------
+
+Setup a proper Android development environment.
+
+Get a copy of YouTubeAndroidAPI-0.3.6, and put it in third-party.
+
+Do whatever sort of IntelliJ / Android magic is necessary to properly link it in:
+
+	- This should create a
+	  third-party/YouTubeAndroidAPI-0.3.6/library/library.iml file.
+
+	- project.properties should contain:
+	  android.library.reference.1=third-party/YouTubeAndroidAPI-0.3.6/library
+	  or something like that.
+
