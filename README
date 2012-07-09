@@ -16,6 +16,8 @@ Get a copy of YouTubeAndroidAPI-0.3.6, and put it in third-party.
 
 Do whatever sort of IntelliJ / Android magic is necessary to properly link it in:
 
+	- See: http://soledadpenades.com/2011/06/17/android-library-projects-with-intellij-idea/
+
 	- This should create a
 	  third-party/YouTubeAndroidAPI-0.3.6/library/library.iml file.
 
